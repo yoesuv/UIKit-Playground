@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB28FBC429C954E700119D4B /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB28FBC329C954E700119D4B /* CounterViewController.swift */; };
 		AB7BE61429C7FEE300A787F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7BE61329C7FEE300A787F4 /* AppDelegate.swift */; };
 		AB7BE61629C7FEE300A787F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7BE61529C7FEE300A787F4 /* SceneDelegate.swift */; };
 		AB7BE61829C7FEE300A787F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7BE61729C7FEE300A787F4 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB28FBC329C954E700119D4B /* CounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
 		AB7BE61029C7FEE300A787F4 /* My UI Kit Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My UI Kit Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7BE61329C7FEE300A787F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB7BE61529C7FEE300A787F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				AB7BE61529C7FEE300A787F4 /* SceneDelegate.swift */,
 				AB7BE61729C7FEE300A787F4 /* ViewController.swift */,
 				AB7BE61929C7FEE300A787F4 /* Main.storyboard */,
+				AB28FBC329C954E700119D4B /* CounterViewController.swift */,
 				AB7BE61C29C7FEE300A787F4 /* Assets.xcassets */,
 				AB7BE61E29C7FEE300A787F4 /* LaunchScreen.storyboard */,
 				AB7BE62129C7FEE300A787F4 /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB7BE61829C7FEE300A787F4 /* ViewController.swift in Sources */,
+				AB28FBC429C954E700119D4B /* CounterViewController.swift in Sources */,
 				AB7BE61429C7FEE300A787F4 /* AppDelegate.swift in Sources */,
 				AB7BE61629C7FEE300A787F4 /* SceneDelegate.swift in Sources */,
 			);
