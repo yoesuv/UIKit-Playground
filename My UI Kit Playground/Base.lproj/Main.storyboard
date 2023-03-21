@@ -32,6 +32,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="counter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tIz-5a-kCN"/>
+                                    <segue destination="AWW-8L-Wuc" kind="show" identifier="goToCounter" id="rOQ-XZ-8hc"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -55,7 +56,7 @@
             <objects>
                 <viewController storyboardIdentifier="CounterViewController" id="AWW-8L-Wuc" customClass="CounterViewController" customModule="My_UI_Kit_Playground" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6c9-VQ-GmG">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="755"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Counter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fak-P4-KA8">
@@ -69,6 +70,7 @@
                         <viewLayoutGuide key="safeArea" id="s3d-sI-ChK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="fvf-nm-iKZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c2m-2P-t8u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

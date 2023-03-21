@@ -17,6 +17,7 @@ class ViewController: UIViewController {
 
     @IBAction func counter(_ sender: UIButton) {
         print("button counter click");
+        performSegue(withIdentifier: "goToCounter", sender: nil)
     }
 }
 
