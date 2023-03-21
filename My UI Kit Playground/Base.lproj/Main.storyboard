@@ -25,7 +25,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lSc-M8-gwT">
-                                <rect key="frame" x="143.33333333333331" y="151" width="88.666666666666686" height="35.666666666666657"/>
+                                <rect key="frame" x="143.33333333333334" y="151" width="88.666666666666657" height="35.666666666666657"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Counter">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
@@ -53,7 +53,7 @@
         <!--Counter View Controller-->
         <scene sceneID="05B-Nz-YJ8">
             <objects>
-                <viewController id="AWW-8L-Wuc" customClass="CounterViewController" customModule="My_UI_Kit_Playground" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CounterViewController" id="AWW-8L-Wuc" customClass="CounterViewController" customModule="My_UI_Kit_Playground" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6c9-VQ-GmG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
