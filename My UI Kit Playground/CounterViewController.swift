@@ -26,4 +26,8 @@ class CounterViewController: UIViewController {
     }
     */
 
+    @IBAction func onBack(_ sender: UIButton) {
+        print("button back click");
+        self.dismiss(animated: true)
+    }
 }
