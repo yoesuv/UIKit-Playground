@@ -14,10 +14,5 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
-    @IBAction func counter(_ sender: UIButton) {
-        print("button counter click");
-        performSegue(withIdentifier: "goToCounter", sender: nil)
-    }
 }
 
