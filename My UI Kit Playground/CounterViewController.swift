@@ -9,25 +9,26 @@ import UIKit
 
 class CounterViewController: UIViewController {
 
+    var value: Int = 0
+    @IBOutlet weak var labelCounter: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        labelCounter.text = String(value)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func onMinus(_ sender: UIButton) {
+        value = value - 1
+        labelCounter.text = String(value)
     }
-    */
-
+    
+    @IBAction func onPlus(_ sender: UIButton) {
+        value = value + 1
+        labelCounter.text = String(value)
+    }
+    
     @IBAction func onBack(_ sender: UIButton) {
-        print("button back click");
         self.dismiss(animated: true)
     }
 }

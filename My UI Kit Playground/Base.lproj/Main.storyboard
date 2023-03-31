@@ -58,13 +58,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQ0-Mp-6sa">
-                                <rect key="frame" x="0.0" y="96.999999999999972" width="375" height="358.33333333333326"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="300"/>
+                                <rect key="frame" x="0.0" y="97" width="375" height="239"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="200"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="uYv-3k-nye">
-                                <rect key="frame" x="50" y="475.33333333333326" width="275" height="120"/>
+                                <rect key="frame" x="50" y="356" width="275" height="120"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="n5M-zp-bwx">
                                         <rect key="frame" x="0.0" y="0.0" width="275" height="50"/>
@@ -76,16 +76,22 @@
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="MINUS"/>
+                                                <connections>
+                                                    <action selector="onMinus:" destination="AWW-8L-Wuc" eventType="touchUpInside" id="qLc-mk-F9P"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i2G-xA-QlC">
                                                 <rect key="frame" x="147.66666666666666" y="0.0" width="127.33333333333334" height="50"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="PLUS"/>
+                                                <connections>
+                                                    <action selector="onPlus:" destination="AWW-8L-Wuc" eventType="touchUpInside" id="63h-hi-D6c"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uDv-wh-5iR">
-                                        <rect key="frame" x="0.0" y="70.000000000000057" width="275" height="50"/>
+                                        <rect key="frame" x="0.0" y="70" width="275" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="CVf-6X-jJG"/>
                                         </constraints>
@@ -110,6 +116,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="fvf-nm-iKZ"/>
+                    <connections>
+                        <outlet property="labelCounter" destination="VQ0-Mp-6sa" id="SJt-jX-I6q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c2m-2P-t8u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
