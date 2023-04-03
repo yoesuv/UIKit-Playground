@@ -218,14 +218,32 @@
                                     </textField>
                                 </subviews>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="FAV-rC-Zno">
+                                <rect key="frame" x="40" y="723.66666666666663" width="295" height="34.333333333333371"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O71-Tf-5CX">
+                                        <rect key="frame" x="0.0" y="0.0" width="142.66666666666666" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="BACK"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbL-aB-QxU">
+                                        <rect key="frame" x="152.66666666666663" y="0.0" width="142.33333333333337" height="34.333333333333336"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="REGISTER"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jWw-WL-KCG"/>
                         <color key="backgroundColor" name="Grey100"/>
                         <constraints>
+                            <constraint firstItem="jWw-WL-KCG" firstAttribute="trailing" secondItem="FAV-rC-Zno" secondAttribute="trailing" constant="40" id="LkV-zg-Zrt"/>
+                            <constraint firstItem="FAV-rC-Zno" firstAttribute="leading" secondItem="jWw-WL-KCG" secondAttribute="leading" constant="40" id="NgS-fO-vPy"/>
                             <constraint firstItem="7LY-ha-pYt" firstAttribute="leading" secondItem="jWw-WL-KCG" secondAttribute="leading" constant="100" id="SSQ-qM-Xu3"/>
                             <constraint firstItem="7LY-ha-pYt" firstAttribute="top" secondItem="jWw-WL-KCG" secondAttribute="top" constant="40" id="Xuf-WL-Hvh"/>
                             <constraint firstItem="wfm-Ty-QMG" firstAttribute="top" secondItem="7LY-ha-pYt" secondAttribute="bottom" constant="30" id="lgt-ng-Dyr"/>
                             <constraint firstItem="jWw-WL-KCG" firstAttribute="trailing" secondItem="7LY-ha-pYt" secondAttribute="trailing" constant="100" id="sjJ-kh-tt4"/>
+                            <constraint firstItem="jWw-WL-KCG" firstAttribute="bottom" secondItem="FAV-rC-Zno" secondAttribute="bottom" constant="20" id="v5q-oM-PEA"/>
                             <constraint firstItem="jWw-WL-KCG" firstAttribute="trailing" secondItem="wfm-Ty-QMG" secondAttribute="trailing" constant="40" id="xjp-t7-Gwj"/>
                             <constraint firstItem="wfm-Ty-QMG" firstAttribute="leading" secondItem="jWw-WL-KCG" secondAttribute="leading" constant="40" id="zn4-gU-BII"/>
                         </constraints>
