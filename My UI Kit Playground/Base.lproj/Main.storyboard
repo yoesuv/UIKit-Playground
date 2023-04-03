@@ -219,15 +219,21 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="FAV-rC-Zno">
-                                <rect key="frame" x="40" y="723.66666666666663" width="295" height="34.333333333333371"/>
+                                <rect key="frame" x="40" y="713" width="295" height="45"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O71-Tf-5CX">
-                                        <rect key="frame" x="0.0" y="0.0" width="142.66666666666666" height="34.333333333333336"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="142.66666666666666" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="45" id="cPO-lX-plP"/>
+                                        </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="BACK"/>
+                                        <connections>
+                                            <action selector="onBackPressed:" destination="Mcy-1t-kxP" eventType="touchUpInside" id="hKY-3H-Pif"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbL-aB-QxU">
-                                        <rect key="frame" x="152.66666666666663" y="0.0" width="142.33333333333337" height="34.333333333333336"/>
+                                        <rect key="frame" x="152.66666666666663" y="0.0" width="142.33333333333337" height="45"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="REGISTER"/>
                                     </button>
