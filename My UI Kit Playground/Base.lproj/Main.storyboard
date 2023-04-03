@@ -50,7 +50,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Form"/>
                                                 <connections>
-                                                    <action selector="onClickForm:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KBf-uI-Sge"/>
+                                                    <segue destination="Mcy-1t-kxP" kind="presentation" modalPresentationStyle="fullScreen" id="AY2-Bp-vJS"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tNc-JH-t3W">
@@ -165,7 +165,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c2m-2P-t8u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="954" y="-27"/>
+            <point key="canvasLocation" x="969" y="-383"/>
         </scene>
         <!--Form View Controller-->
         <scene sceneID="dV4-bo-42l">
@@ -190,10 +190,11 @@
                             <constraint firstItem="jWw-WL-KCG" firstAttribute="trailing" secondItem="7LY-ha-pYt" secondAttribute="trailing" constant="100" id="sjJ-kh-tt4"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="rV8-TJ-ujW"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QJV-F3-4wL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1961" y="-16"/>
+            <point key="canvasLocation" x="991" y="284"/>
         </scene>
     </scenes>
     <resources>
