@@ -181,13 +181,53 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="wfm-Ty-QMG">
+                                <rect key="frame" x="40" y="153" width="295" height="205"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Full Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dfz-8T-Gec">
+                                        <rect key="frame" x="0.0" y="0.0" width="295" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="0om-Oc-hdf"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W2U-Zk-geb">
+                                        <rect key="frame" x="0.0" y="55" width="295" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="wQa-xg-cg1"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="feU-Ns-vaw">
+                                        <rect key="frame" x="0.0" y="110" width="295" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="VYA-zh-xEM"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aFB-c7-QcT">
+                                        <rect key="frame" x="0.0" y="165" width="295" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="yBF-D5-3OU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jWw-WL-KCG"/>
                         <color key="backgroundColor" name="Grey100"/>
                         <constraints>
                             <constraint firstItem="7LY-ha-pYt" firstAttribute="leading" secondItem="jWw-WL-KCG" secondAttribute="leading" constant="100" id="SSQ-qM-Xu3"/>
                             <constraint firstItem="7LY-ha-pYt" firstAttribute="top" secondItem="jWw-WL-KCG" secondAttribute="top" constant="40" id="Xuf-WL-Hvh"/>
+                            <constraint firstItem="wfm-Ty-QMG" firstAttribute="top" secondItem="7LY-ha-pYt" secondAttribute="bottom" constant="30" id="lgt-ng-Dyr"/>
                             <constraint firstItem="jWw-WL-KCG" firstAttribute="trailing" secondItem="7LY-ha-pYt" secondAttribute="trailing" constant="100" id="sjJ-kh-tt4"/>
+                            <constraint firstItem="jWw-WL-KCG" firstAttribute="trailing" secondItem="wfm-Ty-QMG" secondAttribute="trailing" constant="40" id="xjp-t7-Gwj"/>
+                            <constraint firstItem="wfm-Ty-QMG" firstAttribute="leading" secondItem="jWw-WL-KCG" secondAttribute="leading" constant="40" id="zn4-gU-BII"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="rV8-TJ-ujW"/>
