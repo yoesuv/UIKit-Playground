@@ -21,6 +21,9 @@ class FormViewController: UIViewController, UITextFieldDelegate {
         email.delegate = self
         password.delegate = self
         confirmPassword.delegate = self
+        
+        password.isSecureTextEntry = true
+        confirmPassword.isSecureTextEntry = true
     }
     
     @IBAction func onBackPressed(_ sender: UIButton) {
