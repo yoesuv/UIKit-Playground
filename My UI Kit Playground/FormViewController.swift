@@ -23,6 +23,7 @@ class FormViewController: UIViewController, UITextFieldDelegate {
         confirmPassword.delegate = self
         
         password.enablePasswordToggle()
+        confirmPassword.enableConfirmPasswordToggle()
     }
     
     @IBAction func onBackPressed(_ sender: UIButton) {
