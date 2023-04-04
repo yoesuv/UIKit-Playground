@@ -139,7 +139,9 @@
                                             <constraint firstAttribute="height" constant="50" id="CVf-6X-jJG"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="BACK"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="BACK">
+                                            <color key="baseBackgroundColor" name="Red500"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="onBack:" destination="AWW-8L-Wuc" eventType="touchUpInside" id="xh6-hB-rCl"/>
                                         </connections>
@@ -227,7 +229,9 @@
                                             <constraint firstAttribute="height" constant="45" id="cPO-lX-plP"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="BACK"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="BACK">
+                                            <color key="baseBackgroundColor" name="Red500"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="onBackPressed:" destination="Mcy-1t-kxP" eventType="touchUpInside" id="hKY-3H-Pif"/>
                                         </connections>
@@ -264,6 +268,9 @@
     <resources>
         <namedColor name="Grey100">
             <color red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Red500">
+            <color red="0.95686274509803915" green="0.2627450980392157" blue="0.21176470588235294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
