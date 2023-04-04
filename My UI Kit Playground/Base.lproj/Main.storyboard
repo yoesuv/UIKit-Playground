@@ -240,6 +240,9 @@
                                         <rect key="frame" x="152.66666666666663" y="0.0" width="142.33333333333337" height="45"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="REGISTER"/>
+                                        <connections>
+                                            <action selector="onRegisterPressed:" destination="Mcy-1t-kxP" eventType="touchUpInside" id="2jV-C0-WWR"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -259,6 +262,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="rV8-TJ-ujW"/>
+                    <connections>
+                        <outlet property="confirmPassword" destination="aFB-c7-QcT" id="MuR-dO-gx9"/>
+                        <outlet property="email" destination="W2U-Zk-geb" id="qHx-1g-pEt"/>
+                        <outlet property="fullName" destination="dfz-8T-Gec" id="RoD-Co-ohj"/>
+                        <outlet property="password" destination="feU-Ns-vaw" id="OmI-jL-DOH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QJV-F3-4wL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
