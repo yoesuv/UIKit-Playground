@@ -13,11 +13,5 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-    @IBAction func onClickForm(_ sender: UIButton) {
-        let vc = FormViewController()
-        vc.modalPresentationStyle = .fullScreen
-        present(vc, animated: true)
-    }
 }
 
