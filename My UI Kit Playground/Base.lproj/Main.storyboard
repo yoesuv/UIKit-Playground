@@ -276,52 +276,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kvh-cH-mPS" userLabel="ToolbarView">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="s04-Cb-hKU">
-                                        <rect key="frame" x="0.0" y="35" width="84.333333333333329" height="34.333333333333343"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vj3-Jc-ufu">
-                                                <rect key="frame" x="0.0" y="0.0" width="39.666666666666664" height="34.333333333333336"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" image="chevron.backward" catalog="system">
-                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </buttonConfiguration>
-                                                <connections>
-                                                    <action selector="onBackPressed:" destination="sNC-uO-V7g" eventType="touchUpInside" id="AsE-JT-bj6"/>
-                                                </connections>
-                                            </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="List" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OTh-g8-wmA">
-                                                <rect key="frame" x="49.666666666666671" y="0.0" width="34.666666666666671" height="34.333333333333336"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
-                                <color key="backgroundColor" name="AccentColor"/>
-                                <constraints>
-                                    <constraint firstItem="s04-Cb-hKU" firstAttribute="leading" secondItem="Kvh-cH-mPS" secondAttribute="leading" id="79c-eW-zXb"/>
-                                    <constraint firstItem="s04-Cb-hKU" firstAttribute="top" secondItem="Kvh-cH-mPS" secondAttribute="top" constant="35" id="8W9-2m-53m"/>
-                                    <constraint firstAttribute="height" constant="80" id="FOf-5e-BCx"/>
-                                </constraints>
-                            </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="H60-Ra-Q3j">
-                                <rect key="frame" x="0.0" y="88" width="375" height="700"/>
+                                <rect key="frame" x="0.0" y="47" width="375" height="741"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="X7J-yk-Ph0"/>
                         <color key="backgroundColor" name="Grey100"/>
                         <constraints>
-                            <constraint firstItem="Kvh-cH-mPS" firstAttribute="top" secondItem="CGr-Zg-OuN" secondAttribute="top" id="KKp-b0-ccg"/>
-                            <constraint firstItem="Kvh-cH-mPS" firstAttribute="leading" secondItem="CGr-Zg-OuN" secondAttribute="leading" id="QIK-vw-plr"/>
-                            <constraint firstItem="H60-Ra-Q3j" firstAttribute="top" secondItem="Kvh-cH-mPS" secondAttribute="bottom" id="RSY-2z-Tr5"/>
+                            <constraint firstItem="H60-Ra-Q3j" firstAttribute="top" secondItem="X7J-yk-Ph0" secondAttribute="top" id="TgO-QG-Ldj"/>
                             <constraint firstItem="H60-Ra-Q3j" firstAttribute="trailing" secondItem="X7J-yk-Ph0" secondAttribute="trailing" id="WLE-Zy-wyj"/>
                             <constraint firstAttribute="bottom" secondItem="H60-Ra-Q3j" secondAttribute="bottom" constant="24" id="iA2-ff-B9f"/>
-                            <constraint firstAttribute="trailing" secondItem="Kvh-cH-mPS" secondAttribute="trailing" id="lzl-4l-gps"/>
                             <constraint firstItem="H60-Ra-Q3j" firstAttribute="leading" secondItem="X7J-yk-Ph0" secondAttribute="leading" id="mRp-Q3-QGw"/>
                         </constraints>
                     </view>
@@ -332,10 +297,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="chevron.backward" catalog="system" width="32" height="32"/>
-        <namedColor name="AccentColor">
-            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
         <namedColor name="Grey100">
             <color red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
