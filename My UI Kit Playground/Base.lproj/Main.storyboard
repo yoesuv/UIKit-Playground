@@ -6,6 +6,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -284,7 +285,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kvh-cH-mPS">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kvh-cH-mPS" userLabel="ToolbarView">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="s04-Cb-hKU">
@@ -316,23 +317,31 @@
                                     <constraint firstAttribute="height" constant="80" id="FOf-5e-BCx"/>
                                 </constraints>
                             </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="H60-Ra-Q3j">
+                                <rect key="frame" x="0.0" y="80" width="375" height="708"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="X7J-yk-Ph0"/>
                         <color key="backgroundColor" name="Grey100"/>
                         <constraints>
                             <constraint firstItem="Kvh-cH-mPS" firstAttribute="top" secondItem="CGr-Zg-OuN" secondAttribute="top" id="KKp-b0-ccg"/>
                             <constraint firstItem="Kvh-cH-mPS" firstAttribute="leading" secondItem="CGr-Zg-OuN" secondAttribute="leading" id="QIK-vw-plr"/>
+                            <constraint firstItem="H60-Ra-Q3j" firstAttribute="top" secondItem="Kvh-cH-mPS" secondAttribute="bottom" id="RSY-2z-Tr5"/>
+                            <constraint firstItem="H60-Ra-Q3j" firstAttribute="trailing" secondItem="X7J-yk-Ph0" secondAttribute="trailing" id="WLE-Zy-wyj"/>
+                            <constraint firstAttribute="bottom" secondItem="H60-Ra-Q3j" secondAttribute="bottom" constant="24" id="iA2-ff-B9f"/>
                             <constraint firstAttribute="trailing" secondItem="Kvh-cH-mPS" secondAttribute="trailing" id="lzl-4l-gps"/>
+                            <constraint firstItem="H60-Ra-Q3j" firstAttribute="leading" secondItem="X7J-yk-Ph0" secondAttribute="leading" id="mRp-Q3-QGw"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nja-HN-ZOP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="76" y="701"/>
+            <point key="canvasLocation" x="76" y="699.7536945812808"/>
         </scene>
     </scenes>
     <resources>
-        <image name="chevron.backward" catalog="system" width="97" height="128"/>
+        <image name="chevron.backward" catalog="system" width="32" height="32"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
@@ -342,5 +351,8 @@
         <namedColor name="Red500">
             <color red="0.9570000171661377" green="0.2630000114440918" blue="0.21199999749660492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
