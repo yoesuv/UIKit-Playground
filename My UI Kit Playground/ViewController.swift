@@ -13,5 +13,18 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    @IBAction func onClickForm(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "HomeToRegister", sender: self)
+    }
+    
+    @IBAction func onClickCounter(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "HomeToCounter", sender: self)
+    }
+    
+    @IBAction func onClickList(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "HomeToList", sender: self)
+    }
+    
 }
 

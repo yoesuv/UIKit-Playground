@@ -34,7 +34,7 @@
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <segue destination="AWW-8L-Wuc" kind="presentation" identifier="goToCounter" modalPresentationStyle="fullScreen" id="0UY-aB-YDB"/>
+                                                    <action selector="onClickCounter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t8A-YR-CB8"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fwa-rD-taT">
@@ -45,7 +45,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Form"/>
                                                 <connections>
-                                                    <segue destination="Mcy-1t-kxP" kind="presentation" modalPresentationStyle="fullScreen" id="AY2-Bp-vJS"/>
+                                                    <action selector="onClickForm:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Cu-Qz-fpO"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tNc-JH-t3W">
@@ -56,7 +56,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="List"/>
                                                 <connections>
-                                                    <segue destination="sNC-uO-V7g" kind="presentation" modalPresentationStyle="fullScreen" id="ude-Tx-QuI"/>
+                                                    <action selector="onClickList:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vb6-ph-VXh"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -82,6 +82,11 @@
                             <constraint firstAttribute="bottom" secondItem="bAc-c5-czH" secondAttribute="bottom" id="kIb-gw-IqQ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="AWW-8L-Wuc" kind="show" identifier="HomeToCounter" id="O2K-jX-Z74"/>
+                        <segue destination="Mcy-1t-kxP" kind="show" identifier="HomeToRegister" id="fDy-D6-WEI"/>
+                        <segue destination="sNC-uO-V7g" kind="show" identifier="HomeToList" id="2l7-js-bqt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -92,7 +97,7 @@
             <objects>
                 <viewController storyboardIdentifier="CounterViewController" id="AWW-8L-Wuc" customClass="CounterViewController" customModule="My_UI_Kit_Playground" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6c9-VQ-GmG">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="755"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQ0-Mp-6sa">
@@ -169,7 +174,7 @@
             <objects>
                 <viewController storyboardIdentifier="FormViewController" id="Mcy-1t-kxP" customClass="FormViewController" customModule="My_UI_Kit_Playground" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L9I-V5-BHm">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="755"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Register" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7LY-ha-pYt">
@@ -216,7 +221,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="FAV-rC-Zno">
-                                <rect key="frame" x="40" y="713" width="295" height="45"/>
+                                <rect key="frame" x="40" y="690" width="295" height="45"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O71-Tf-5CX">
                                         <rect key="frame" x="0.0" y="0.0" width="142.66666666666666" height="45"/>
@@ -266,18 +271,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QJV-F3-4wL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="991" y="284"/>
+            <point key="canvasLocation" x="969" y="288"/>
         </scene>
         <!--App List View Controller-->
         <scene sceneID="1Ot-Uv-f9b">
             <objects>
                 <viewController id="sNC-uO-V7g" customClass="AppListViewController" customModule="My_UI_Kit_Playground" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CGr-Zg-OuN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="755"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="H60-Ra-Q3j">
-                                <rect key="frame" x="0.0" y="47" width="375" height="741"/>
+                                <rect key="frame" x="0.0" y="47" width="375" height="684"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
@@ -290,10 +295,11 @@
                             <constraint firstItem="H60-Ra-Q3j" firstAttribute="leading" secondItem="X7J-yk-Ph0" secondAttribute="leading" id="mRp-Q3-QGw"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="jet-bB-bcm"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nja-HN-ZOP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="76" y="699.7536945812808"/>
+            <point key="canvasLocation" x="1858" y="-383"/>
         </scene>
     </scenes>
     <resources>
