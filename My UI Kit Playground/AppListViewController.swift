@@ -11,6 +11,11 @@ class AppListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let backButton = UIBarButtonItem()
+        backButton.title = "Back"
+        self.navigationController?.navigationBar.topItem?.backBarButtonItem = backButton
+        
         self.navigationItem.title = "List View"
     }
 

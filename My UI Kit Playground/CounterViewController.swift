@@ -14,6 +14,11 @@ class CounterViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let backButton = UIBarButtonItem()
+        backButton.title = "Back"
+        self.navigationController?.navigationBar.topItem?.backBarButtonItem = backButton
+        
         self.navigationItem.title = "Counter"
         labelCounter.text = String(value)
     }
