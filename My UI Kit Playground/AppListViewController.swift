@@ -26,6 +26,8 @@ class AppListViewController: UIViewController, UITableViewDataSource {
         
         self.navigationItem.title = "List View"
         
+        tableView.separatorInset = .zero
+        tableView.layoutMargins = .zero
         tableView.dataSource = self
     }
     
@@ -36,6 +38,9 @@ class AppListViewController: UIViewController, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "dataCell", for: indexPath) as! DataTableViewCell
         cell.label.text = listData[indexPath.row]
+        cell.directionalLayoutMargins = .zero
+        cell.layoutMargins = .zero
+        cell.contentView.layoutMargins = .zero
         return cell
     }
 
