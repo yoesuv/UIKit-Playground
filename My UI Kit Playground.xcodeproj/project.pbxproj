@@ -16,6 +16,7 @@
 		AB7BE62029C7FEE300A787F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7BE61E29C7FEE300A787F4 /* LaunchScreen.storyboard */; };
 		ABD2821029DCFE3C00AE8C61 /* AppListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD2820F29DCFE3C00AE8C61 /* AppListViewController.swift */; };
 		ABDBF7D129DA70BB004C0DCC /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDBF7D029DA70BB004C0DCC /* FormViewController.swift */; };
+		ABE2821129E542C6003E24E1 /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE2821029E542C6003E24E1 /* DataTableViewCell.swift */; };
 		ABF5A04D29DC0D6200ECB84B /* UITextFieldSecureToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF5A04C29DC0D6200ECB84B /* UITextFieldSecureToggle.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		AB7BE62129C7FEE300A787F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABD2820F29DCFE3C00AE8C61 /* AppListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppListViewController.swift; sourceTree = "<group>"; };
 		ABDBF7D029DA70BB004C0DCC /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		ABE2821029E542C6003E24E1 /* DataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
 		ABF5A04C29DC0D6200ECB84B /* UITextFieldSecureToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldSecureToggle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +77,7 @@
 				AB7BE62129C7FEE300A787F4 /* Info.plist */,
 				ABDBF7D029DA70BB004C0DCC /* FormViewController.swift */,
 				ABF5A04C29DC0D6200ECB84B /* UITextFieldSecureToggle.swift */,
+				ABE2821029E542C6003E24E1 /* DataTableViewCell.swift */,
 			);
 			path = "My UI Kit Playground";
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				ABDBF7D129DA70BB004C0DCC /* FormViewController.swift in Sources */,
 				ABD2821029DCFE3C00AE8C61 /* AppListViewController.swift in Sources */,
 				AB7BE61629C7FEE300A787F4 /* SceneDelegate.swift in Sources */,
+				ABE2821129E542C6003E24E1 /* DataTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
