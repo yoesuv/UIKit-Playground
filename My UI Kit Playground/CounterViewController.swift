@@ -34,6 +34,6 @@ class CounterViewController: UIViewController {
     }
     
     @IBAction func onBack(_ sender: UIButton) {
-        self.dismiss(animated: true)
+        self.navigationController?.popViewController(animated: true)
     }
 }

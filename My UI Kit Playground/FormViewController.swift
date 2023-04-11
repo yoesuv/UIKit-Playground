@@ -32,7 +32,7 @@ class FormViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func onBackPressed(_ sender: UIButton) {
-        self.dismiss(animated: true)
+        self.navigationController?.popViewController(animated: true)
     }
     
     @IBAction func onRegisterPressed(_ sender: UIButton) {
