@@ -53,6 +53,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB4E3B4C29E6E39500FAE56B /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				ABDBF7D029DA70BB004C0DCC /* FormViewController.swift */,
+				AB9F9A7D29E645F7003DE1DD /* FormResultViewController.swift */,
+				AB9F9A7F29E6530B003DE1DD /* RegisterModel.swift */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
 		AB7BE60729C7FEE300A787F4 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +82,7 @@
 		AB7BE61229C7FEE300A787F4 /* My UI Kit Playground */ = {
 			isa = PBXGroup;
 			children = (
+				AB4E3B4C29E6E39500FAE56B /* Form */,
 				AB9F9A8629E67301003DE1DD /* ListView */,
 				AB9F9A8529E672DD003DE1DD /* Counter */,
 				AB7BE61329C7FEE300A787F4 /* AppDelegate.swift */,
@@ -81,10 +92,7 @@
 				AB7BE61C29C7FEE300A787F4 /* Assets.xcassets */,
 				AB7BE61E29C7FEE300A787F4 /* LaunchScreen.storyboard */,
 				AB7BE62129C7FEE300A787F4 /* Info.plist */,
-				ABDBF7D029DA70BB004C0DCC /* FormViewController.swift */,
 				ABF5A04C29DC0D6200ECB84B /* UITextFieldSecureToggle.swift */,
-				AB9F9A7D29E645F7003DE1DD /* FormResultViewController.swift */,
-				AB9F9A7F29E6530B003DE1DD /* RegisterModel.swift */,
 				AB9F9A8129E66D38003DE1DD /* CodableExtension.swift */,
 			);
 			path = "My UI Kit Playground";
