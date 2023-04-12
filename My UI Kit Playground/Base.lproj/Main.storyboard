@@ -274,6 +274,34 @@
             </objects>
             <point key="canvasLocation" x="1911.2" y="287.4384236453202"/>
         </scene>
+        <!--Form Result View Controller-->
+        <scene sceneID="UIj-bh-Ibh">
+            <objects>
+                <viewController id="XgP-Az-VWs" customClass="FormResultViewController" customModule="My_UI_Kit_Playground" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zeT-oY-zrg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DP6-wn-P8D">
+                                <rect key="frame" x="100" y="87" width="175" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pex-0d-9vc"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="pex-0d-9vc" firstAttribute="trailing" secondItem="DP6-wn-P8D" secondAttribute="trailing" constant="100" id="6fP-Zi-17v"/>
+                            <constraint firstItem="DP6-wn-P8D" firstAttribute="top" secondItem="pex-0d-9vc" secondAttribute="top" constant="40" id="EH8-XO-RN0"/>
+                            <constraint firstItem="DP6-wn-P8D" firstAttribute="leading" secondItem="pex-0d-9vc" secondAttribute="leading" constant="100" id="PVV-Cq-DDh"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zE1-P8-sAn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2799" y="287"/>
+        </scene>
         <!--App List View Controller-->
         <scene sceneID="1Ot-Uv-f9b">
             <objects>
