@@ -289,16 +289,60 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="nTv-cH-dr8">
+                                <rect key="frame" x="40" y="187" width="295" height="23"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m9J-Tz-5QB">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="23"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="LabelName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NBw-kH-s1n">
+                                        <rect key="frame" x="199" y="0.0" width="96" height="23"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0rt-B5-iQy">
+                                <rect key="frame" x="40" y="230" width="295" height="23"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="izP-m4-F2t">
+                                        <rect key="frame" x="0.0" y="0.0" width="203.66666666666666" height="23"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="LabelEmail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8uK-za-Pwv">
+                                        <rect key="frame" x="203.66666666666666" y="0.0" width="91.333333333333343" height="23"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pex-0d-9vc"/>
                         <color key="backgroundColor" name="Grey100"/>
                         <constraints>
+                            <constraint firstItem="0rt-B5-iQy" firstAttribute="leading" secondItem="pex-0d-9vc" secondAttribute="leading" constant="40" id="40d-Hc-34i"/>
                             <constraint firstItem="pex-0d-9vc" firstAttribute="trailing" secondItem="DP6-wn-P8D" secondAttribute="trailing" constant="100" id="6fP-Zi-17v"/>
                             <constraint firstItem="DP6-wn-P8D" firstAttribute="top" secondItem="pex-0d-9vc" secondAttribute="top" constant="40" id="EH8-XO-RN0"/>
+                            <constraint firstItem="nTv-cH-dr8" firstAttribute="leading" secondItem="pex-0d-9vc" secondAttribute="leading" constant="40" id="N6s-Vq-uG5"/>
                             <constraint firstItem="DP6-wn-P8D" firstAttribute="leading" secondItem="pex-0d-9vc" secondAttribute="leading" constant="100" id="PVV-Cq-DDh"/>
+                            <constraint firstItem="nTv-cH-dr8" firstAttribute="top" secondItem="DP6-wn-P8D" secondAttribute="bottom" constant="20" id="Qqq-qM-D6k"/>
+                            <constraint firstItem="pex-0d-9vc" firstAttribute="trailing" secondItem="0rt-B5-iQy" secondAttribute="trailing" constant="40" id="SRq-G2-3Qc"/>
+                            <constraint firstItem="pex-0d-9vc" firstAttribute="trailing" secondItem="nTv-cH-dr8" secondAttribute="trailing" constant="40" id="jnX-Lz-Tyl"/>
+                            <constraint firstItem="0rt-B5-iQy" firstAttribute="top" secondItem="nTv-cH-dr8" secondAttribute="bottom" constant="20" id="lU8-8m-eHX"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="4oC-gx-6AN"/>
+                    <connections>
+                        <outlet property="labelEmail" destination="8uK-za-Pwv" id="A3N-Hy-Vxm"/>
+                        <outlet property="labelName" destination="NBw-kH-s1n" id="Uga-gV-B7p"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zE1-P8-sAn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

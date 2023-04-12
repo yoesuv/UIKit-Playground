@@ -11,6 +11,9 @@ class FormResultViewController: UIViewController {
 
     var model: RegisterModel?
     
+    @IBOutlet weak var labelName: UILabel!
+    @IBOutlet weak var labelEmail: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         do {
@@ -18,6 +21,8 @@ class FormResultViewController: UIViewController {
             if let out = data {
                 print("FormResultViewController # data register \n \(out)")
             }
+            labelName.text = model?.name
+            labelEmail.text = model?.email
         } catch {
             print("FormResultViewController # error \(error)")
         }
