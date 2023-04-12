@@ -9,7 +9,6 @@ import UIKit
 
 class FormViewController: UIViewController, UITextFieldDelegate {
     
-    
     @IBOutlet weak var fullName: UITextField!
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
@@ -31,6 +30,14 @@ class FormViewController: UIViewController, UITextFieldDelegate {
         confirmPassword.enableConfirmPasswordToggle()
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (segue.identifier == "RegisterToResult") {
+            let desVC = segue.destination as! FormResultViewController
+            let object = sender as! RegisterModel
+            desVC.model = object
+        }
+    }
+    
     @IBAction func onBackPressed(_ sender: UIButton) {
         self.navigationController?.popViewController(animated: true)
     }
@@ -40,10 +47,8 @@ class FormViewController: UIViewController, UITextFieldDelegate {
         let email = email.text ?? ""
         let password = password.text ?? ""
         let confirmPassword = confirmPassword.text ?? ""
-        print("FormViewController # full name \(name)")
-        print("FormViewController # email \(email)")
-        print("FormViewController # password \(password)")
-        print("FormViewController # confirm password \(confirmPassword)")
+        let model = RegisterModel(name: name, email: email, password: password, confirmPassword: confirmPassword)
+        self.performSegue(withIdentifier: "RegisterToResult", sender: model)
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
