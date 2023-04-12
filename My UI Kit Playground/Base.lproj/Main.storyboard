@@ -268,6 +268,7 @@
                         <outlet property="email" destination="W2U-Zk-geb" id="qHx-1g-pEt"/>
                         <outlet property="fullName" destination="dfz-8T-Gec" id="RoD-Co-ohj"/>
                         <outlet property="password" destination="feU-Ns-vaw" id="OmI-jL-DOH"/>
+                        <segue destination="XgP-Az-VWs" kind="show" identifier="RegisterToResult" id="202-PD-ICy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QJV-F3-4wL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -283,7 +284,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DP6-wn-P8D">
-                                <rect key="frame" x="100" y="87" width="175" height="36"/>
+                                <rect key="frame" x="100" y="131" width="175" height="36"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -297,6 +298,7 @@
                             <constraint firstItem="DP6-wn-P8D" firstAttribute="leading" secondItem="pex-0d-9vc" secondAttribute="leading" constant="100" id="PVV-Cq-DDh"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="4oC-gx-6AN"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zE1-P8-sAn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

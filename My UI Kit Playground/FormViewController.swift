@@ -47,6 +47,7 @@ class FormViewController: UIViewController, UITextFieldDelegate {
             let output = String(data: data, encoding: .utf8)
             if let out = output {
                 print("FormViewController # encode \(out)")
+                self.performSegue(withIdentifier: "RegisterToResult", sender: self)
             }
         } catch {
             print("FormViewController # error encode \(error)")
