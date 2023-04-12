@@ -9,8 +9,11 @@ import UIKit
 
 class FormResultViewController: UIViewController {
 
+    var model: RegisterModel?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("FormResultViewController # name \(model?.name)")
     }
 
 }

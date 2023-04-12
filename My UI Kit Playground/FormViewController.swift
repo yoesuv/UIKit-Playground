@@ -30,6 +30,14 @@ class FormViewController: UIViewController, UITextFieldDelegate {
         confirmPassword.enableConfirmPasswordToggle()
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (segue.identifier == "RegisterToResult") {
+            let desVC = segue.destination as! FormResultViewController
+            let object = sender as! RegisterModel
+            desVC.model = object
+        }
+    }
+    
     @IBAction func onBackPressed(_ sender: UIButton) {
         self.navigationController?.popViewController(animated: true)
     }
@@ -47,7 +55,7 @@ class FormViewController: UIViewController, UITextFieldDelegate {
             let output = String(data: data, encoding: .utf8)
             if let out = output {
                 print("FormViewController # encode \(out)")
-                self.performSegue(withIdentifier: "RegisterToResult", sender: self)
+                self.performSegue(withIdentifier: "RegisterToResult", sender: model)
             }
         } catch {
             print("FormViewController # error encode \(error)")
