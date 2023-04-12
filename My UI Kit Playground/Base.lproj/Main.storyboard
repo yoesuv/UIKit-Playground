@@ -291,7 +291,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pex-0d-9vc"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="Grey100"/>
                         <constraints>
                             <constraint firstItem="pex-0d-9vc" firstAttribute="trailing" secondItem="DP6-wn-P8D" secondAttribute="trailing" constant="100" id="6fP-Zi-17v"/>
                             <constraint firstItem="DP6-wn-P8D" firstAttribute="top" secondItem="pex-0d-9vc" secondAttribute="top" constant="40" id="EH8-XO-RN0"/>
