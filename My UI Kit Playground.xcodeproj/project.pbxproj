@@ -16,6 +16,7 @@
 		AB7BE62029C7FEE300A787F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7BE61E29C7FEE300A787F4 /* LaunchScreen.storyboard */; };
 		AB9F9A7E29E645F7003DE1DD /* FormResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9F9A7D29E645F7003DE1DD /* FormResultViewController.swift */; };
 		AB9F9A8029E6530B003DE1DD /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9F9A7F29E6530B003DE1DD /* RegisterModel.swift */; };
+		AB9F9A8229E66D38003DE1DD /* CodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9F9A8129E66D38003DE1DD /* CodableExtension.swift */; };
 		ABD2821029DCFE3C00AE8C61 /* AppListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD2820F29DCFE3C00AE8C61 /* AppListViewController.swift */; };
 		ABDBF7D129DA70BB004C0DCC /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDBF7D029DA70BB004C0DCC /* FormViewController.swift */; };
 		ABE2821129E542C6003E24E1 /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE2821029E542C6003E24E1 /* DataTableViewCell.swift */; };
@@ -34,6 +35,7 @@
 		AB7BE62129C7FEE300A787F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB9F9A7D29E645F7003DE1DD /* FormResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormResultViewController.swift; sourceTree = "<group>"; };
 		AB9F9A7F29E6530B003DE1DD /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
+		AB9F9A8129E66D38003DE1DD /* CodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableExtension.swift; sourceTree = "<group>"; };
 		ABD2820F29DCFE3C00AE8C61 /* AppListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppListViewController.swift; sourceTree = "<group>"; };
 		ABDBF7D029DA70BB004C0DCC /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 		ABE2821029E542C6003E24E1 /* DataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				ABE2821029E542C6003E24E1 /* DataTableViewCell.swift */,
 				AB9F9A7D29E645F7003DE1DD /* FormResultViewController.swift */,
 				AB9F9A7F29E6530B003DE1DD /* RegisterModel.swift */,
+				AB9F9A8129E66D38003DE1DD /* CodableExtension.swift */,
 			);
 			path = "My UI Kit Playground";
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				AB7BE61829C7FEE300A787F4 /* ViewController.swift in Sources */,
 				AB28FBC429C954E700119D4B /* CounterViewController.swift in Sources */,
 				AB7BE61429C7FEE300A787F4 /* AppDelegate.swift in Sources */,
+				AB9F9A8229E66D38003DE1DD /* CodableExtension.swift in Sources */,
 				ABDBF7D129DA70BB004C0DCC /* FormViewController.swift in Sources */,
 				ABD2821029DCFE3C00AE8C61 /* AppListViewController.swift in Sources */,
 				AB9F9A8029E6530B003DE1DD /* RegisterModel.swift in Sources */,

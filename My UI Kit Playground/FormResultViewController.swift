@@ -13,7 +13,14 @@ class FormResultViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("FormResultViewController # name \(model?.name)")
+        do {
+            let data = try model?.encodeToString()
+            if let out = data {
+                print("FormResultViewController # data register \n \(out)")
+            }
+        } catch {
+            print("FormResultViewController # error \(error)")
+        }
     }
 
 }
