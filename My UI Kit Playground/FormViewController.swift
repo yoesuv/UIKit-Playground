@@ -9,7 +9,6 @@ import UIKit
 
 class FormViewController: UIViewController, UITextFieldDelegate {
     
-    
     @IBOutlet weak var fullName: UITextField!
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
@@ -40,10 +39,18 @@ class FormViewController: UIViewController, UITextFieldDelegate {
         let email = email.text ?? ""
         let password = password.text ?? ""
         let confirmPassword = confirmPassword.text ?? ""
-        print("FormViewController # full name \(name)")
-        print("FormViewController # email \(email)")
-        print("FormViewController # password \(password)")
-        print("FormViewController # confirm password \(confirmPassword)")
+        let model = RegisterModel(name: name, email: email, password: password, confirmPassword: confirmPassword)
+        do {
+            let encoder = JSONEncoder()
+            encoder.outputFormatting = .prettyPrinted
+            let data = try encoder.encode(model)
+            let output = String(data: data, encoding: .utf8)
+            if let out = output {
+                print("FormViewController # encode \(out)")
+            }
+        } catch {
+            print("FormViewController # error encode \(error)")
+        }
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
