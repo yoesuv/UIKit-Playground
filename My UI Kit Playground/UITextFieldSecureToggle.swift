@@ -10,16 +10,22 @@ import UIKit
 
 let button = UIButton(type: .custom)
 let button2 = UIButton(type: .custom)
+let imgEye = UIImage(systemName: "eye.fill")
+let imgEyeSlash = UIImage(systemName: "eye.slash.fill")
 
 extension UITextField {
     
     // for password
     func enablePasswordToggle() {
         isSecureTextEntry = true
-        button.setImage(UIImage(systemName: "eye.fill"), for: .normal)
-        button.setImage(UIImage(systemName: "eye.slash.fill"), for: .selected)
-        button.imageEdgeInsets = UIEdgeInsets(top: 0, left: -25, bottom: 0, right: 0)
+        button.setImage(imgEye, for: .normal)
+        button.setImage(imgEyeSlash, for: .selected)
         button.addTarget(self, action: #selector(togglePasswordView), for: .touchUpInside)
+        
+        var config = UIButton.Configuration.plain()
+        config.baseBackgroundColor = UIColor.white
+        button.configuration = config
+        
         rightView = button
         rightViewMode = .always
     }
@@ -32,10 +38,14 @@ extension UITextField {
     // for confirm password
     func enableConfirmPasswordToggle() {
         isSecureTextEntry = true
-        button2.setImage(UIImage(systemName: "eye.fill"), for: .normal)
-        button2.setImage(UIImage(systemName: "eye.slash.fill"), for: .selected)
-        button2.imageEdgeInsets = UIEdgeInsets(top: 0, left: -25, bottom: 0, right: 0)
+        button2.setImage(imgEye, for: .normal)
+        button2.setImage(imgEyeSlash, for: .selected)
         button2.addTarget(self, action: #selector(toggleConfirmPasswordView), for: .touchUpInside)
+        
+        var config = UIButton.Configuration.plain()
+        config.baseBackgroundColor = UIColor.white
+        button2.configuration = config
+        
         rightView = button2
         rightViewMode = .always
     }
