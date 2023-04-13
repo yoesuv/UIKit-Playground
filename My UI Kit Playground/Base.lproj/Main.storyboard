@@ -401,11 +401,28 @@
                     <navigationItem key="navigationItem" id="jet-bB-bcm"/>
                     <connections>
                         <outlet property="tableView" destination="H60-Ra-Q3j" id="Kki-uD-fND"/>
+                        <segue destination="kO0-hv-d5d" kind="show" identifier="ListToDetail" id="Nhq-DB-UgW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nja-HN-ZOP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2799.1999999999998" y="-383.49753694581284"/>
+        </scene>
+        <!--App Detail List View Controller-->
+        <scene sceneID="f8f-8H-iGk">
+            <objects>
+                <viewController id="kO0-hv-d5d" customClass="AppDetailListViewController" customModule="My_UI_Kit_Playground" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Gj-6s-CSY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="gQU-qE-xeh"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="vka-f1-2Cv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VTR-UT-gSg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3708" y="-383"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mAI-xE-dux">

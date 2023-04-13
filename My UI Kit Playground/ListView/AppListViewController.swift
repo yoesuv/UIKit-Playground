@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AppListViewController: UIViewController, UITableViewDataSource {
+class AppListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -29,6 +29,7 @@ class AppListViewController: UIViewController, UITableViewDataSource {
         tableView.separatorInset = .zero
         tableView.layoutMargins = .zero
         tableView.dataSource = self
+        tableView.delegate = self
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -42,6 +43,11 @@ class AppListViewController: UIViewController, UITableViewDataSource {
         cell.layoutMargins = .zero
         cell.contentView.layoutMargins = .zero
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("AppListViewController # \(indexPath.row)/\(listData[indexPath.row])")
+        self.performSegue(withIdentifier: "ListToDetail", sender: nil)
     }
 
 }
