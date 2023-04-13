@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AppListViewController: UIViewController, UITableViewDataSource {
+class AppListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -29,6 +29,15 @@ class AppListViewController: UIViewController, UITableViewDataSource {
         tableView.separatorInset = .zero
         tableView.layoutMargins = .zero
         tableView.dataSource = self
+        tableView.delegate = self
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (segue.identifier == "ListToDetail") {
+            let desVC = segue.destination as! AppDetailListViewController
+            let data = sender as! String
+            desVC.data = data
+        }
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -42,6 +51,11 @@ class AppListViewController: UIViewController, UITableViewDataSource {
         cell.layoutMargins = .zero
         cell.contentView.layoutMargins = .zero
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let strData = listData[indexPath.row]
+        self.performSegue(withIdentifier: "ListToDetail", sender: strData)
     }
 
 }
