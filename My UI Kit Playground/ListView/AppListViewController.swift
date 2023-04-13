@@ -32,6 +32,14 @@ class AppListViewController: UIViewController, UITableViewDataSource, UITableVie
         tableView.delegate = self
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (segue.identifier == "ListToDetail") {
+            let desVC = segue.destination as! AppDetailListViewController
+            let data = sender as! String
+            desVC.data = data
+        }
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return listData.count
     }
@@ -46,8 +54,8 @@ class AppListViewController: UIViewController, UITableViewDataSource, UITableVie
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("AppListViewController # \(indexPath.row)/\(listData[indexPath.row])")
-        self.performSegue(withIdentifier: "ListToDetail", sender: nil)
+        let strData = listData[indexPath.row]
+        self.performSegue(withIdentifier: "ListToDetail", sender: strData)
     }
 
 }

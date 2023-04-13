@@ -415,10 +415,25 @@
                     <view key="view" contentMode="scaleToFill" id="9Gj-6s-CSY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZj-jR-CCb">
+                                <rect key="frame" x="131" y="394" width="113.33333333333331" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="gQU-qE-xeh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="iZj-jR-CCb" firstAttribute="centerY" secondItem="9Gj-6s-CSY" secondAttribute="centerY" id="bih-kV-R5h"/>
+                            <constraint firstItem="iZj-jR-CCb" firstAttribute="centerX" secondItem="9Gj-6s-CSY" secondAttribute="centerX" id="xRo-tz-bcU"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="vka-f1-2Cv"/>
+                    <connections>
+                        <outlet property="labelData" destination="iZj-jR-CCb" id="dhI-g3-AlR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VTR-UT-gSg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

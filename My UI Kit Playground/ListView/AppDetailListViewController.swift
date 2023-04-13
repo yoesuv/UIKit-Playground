@@ -8,7 +8,11 @@
 import UIKit
 
 class AppDetailListViewController: UIViewController {
+    
+    var data: String?
 
+    @IBOutlet weak var labelData: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -17,6 +21,7 @@ class AppDetailListViewController: UIViewController {
         self.navigationController?.navigationBar.topItem?.backBarButtonItem = backButton
         
         self.navigationItem.title = "Detail List View"
+        labelData.text = data ?? ""
     }
 
 }
