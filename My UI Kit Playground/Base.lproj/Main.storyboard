@@ -7,6 +7,7 @@
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -367,10 +368,41 @@
                     <view key="view" contentMode="scaleToFill" id="xWn-s3-66i">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="8x7-E2-M23">
+                                <rect key="frame" x="0.0" y="91" width="375" height="687"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="YtK-CF-HBP">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="12P-IN-qUx">
+                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="qMo-wM-sGq">
+                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="neF-pY-sEk"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="neF-pY-sEk" firstAttribute="trailing" secondItem="8x7-E2-M23" secondAttribute="trailing" id="SRF-uV-A2h"/>
+                            <constraint firstItem="8x7-E2-M23" firstAttribute="leading" secondItem="neF-pY-sEk" secondAttribute="leading" id="dWX-TH-QtE"/>
+                            <constraint firstItem="8x7-E2-M23" firstAttribute="top" secondItem="neF-pY-sEk" secondAttribute="top" id="jxH-1x-pde"/>
+                            <constraint firstItem="neF-pY-sEk" firstAttribute="bottom" secondItem="8x7-E2-M23" secondAttribute="bottom" id="ov5-Vd-4em"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="fUr-K0-QHk"/>
+                    <connections>
+                        <outlet property="collectionView" destination="8x7-E2-M23" id="bSA-zY-iJP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UB0-Ec-795" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
