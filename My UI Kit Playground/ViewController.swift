@@ -34,5 +34,9 @@ class ViewController: UIViewController {
         self.performSegue(withIdentifier: "HomeToList", sender: self)
     }
     
+    @IBAction func onClickGrid(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "HomeToGrid", sender: self)
+    }
+    
 }
 
