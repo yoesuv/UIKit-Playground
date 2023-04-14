@@ -11,3 +11,4 @@ Personal UIKit iOS project.
 - [Youtube](https://youtu.be/cErQiJhLBOY)
 - [Youtube](https://youtu.be/32rp1mtCg-Q)
 - [Password Toggle](https://levelup.gitconnected.com/beginner-ios-dev-embed-a-secure-text-entry-toggle-button-into-a-uitextfield-17bacfc87608)
+- [Table View](https://youtu.be/R2Ng8Vj2yhY)
