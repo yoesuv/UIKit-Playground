@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB0717CB29E93B8500F6D329 /* GridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0717C929E93B8500F6D329 /* GridCollectionViewCell.swift */; };
+		AB0717CC29E93B8500F6D329 /* GridCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB0717CA29E93B8500F6D329 /* GridCollectionViewCell.xib */; };
 		AB28FBC429C954E700119D4B /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB28FBC329C954E700119D4B /* CounterViewController.swift */; };
 		AB7BE61429C7FEE300A787F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7BE61329C7FEE300A787F4 /* AppDelegate.swift */; };
 		AB7BE61629C7FEE300A787F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7BE61529C7FEE300A787F4 /* SceneDelegate.swift */; };
@@ -14,6 +16,7 @@
 		AB7BE61B29C7FEE300A787F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7BE61929C7FEE300A787F4 /* Main.storyboard */; };
 		AB7BE61D29C7FEE300A787F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB7BE61C29C7FEE300A787F4 /* Assets.xcassets */; };
 		AB7BE62029C7FEE300A787F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB7BE61E29C7FEE300A787F4 /* LaunchScreen.storyboard */; };
+		AB9471B729E8E02800175D12 /* AppGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9471B629E8E02800175D12 /* AppGridViewController.swift */; };
 		AB9F9A7E29E645F7003DE1DD /* FormResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9F9A7D29E645F7003DE1DD /* FormResultViewController.swift */; };
 		AB9F9A8029E6530B003DE1DD /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9F9A7F29E6530B003DE1DD /* RegisterModel.swift */; };
 		AB9F9A8229E66D38003DE1DD /* CodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9F9A8129E66D38003DE1DD /* CodableExtension.swift */; };
@@ -25,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB0717C929E93B8500F6D329 /* GridCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCollectionViewCell.swift; sourceTree = "<group>"; };
+		AB0717CA29E93B8500F6D329 /* GridCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GridCollectionViewCell.xib; sourceTree = "<group>"; };
 		AB28FBC329C954E700119D4B /* CounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
 		AB7BE61029C7FEE300A787F4 /* My UI Kit Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My UI Kit Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7BE61329C7FEE300A787F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +39,7 @@
 		AB7BE61C29C7FEE300A787F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB7BE61F29C7FEE300A787F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB7BE62129C7FEE300A787F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB9471B629E8E02800175D12 /* AppGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGridViewController.swift; sourceTree = "<group>"; };
 		AB9F9A7D29E645F7003DE1DD /* FormResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormResultViewController.swift; sourceTree = "<group>"; };
 		AB9F9A7F29E6530B003DE1DD /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
 		AB9F9A8129E66D38003DE1DD /* CodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableExtension.swift; sourceTree = "<group>"; };
@@ -84,6 +90,7 @@
 		AB7BE61229C7FEE300A787F4 /* My UI Kit Playground */ = {
 			isa = PBXGroup;
 			children = (
+				AB9471B529E8DFF200175D12 /* GridView */,
 				AB4E3B4C29E6E39500FAE56B /* Form */,
 				AB9F9A8629E67301003DE1DD /* ListView */,
 				AB9F9A8529E672DD003DE1DD /* Counter */,
@@ -98,6 +105,16 @@
 				AB9F9A8129E66D38003DE1DD /* CodableExtension.swift */,
 			);
 			path = "My UI Kit Playground";
+			sourceTree = "<group>";
+		};
+		AB9471B529E8DFF200175D12 /* GridView */ = {
+			isa = PBXGroup;
+			children = (
+				AB9471B629E8E02800175D12 /* AppGridViewController.swift */,
+				AB0717C929E93B8500F6D329 /* GridCollectionViewCell.swift */,
+				AB0717CA29E93B8500F6D329 /* GridCollectionViewCell.xib */,
+			);
+			path = GridView;
 			sourceTree = "<group>";
 		};
 		AB9F9A8529E672DD003DE1DD /* Counter */ = {
@@ -176,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB0717CC29E93B8500F6D329 /* GridCollectionViewCell.xib in Resources */,
 				AB7BE62029C7FEE300A787F4 /* LaunchScreen.storyboard in Resources */,
 				AB7BE61D29C7FEE300A787F4 /* Assets.xcassets in Resources */,
 				AB7BE61B29C7FEE300A787F4 /* Main.storyboard in Resources */,
@@ -193,6 +211,7 @@
 				ABD2627429E7991800E21F0A /* AppDetailListViewController.swift in Sources */,
 				AB7BE61829C7FEE300A787F4 /* ViewController.swift in Sources */,
 				AB28FBC429C954E700119D4B /* CounterViewController.swift in Sources */,
+				AB0717CB29E93B8500F6D329 /* GridCollectionViewCell.swift in Sources */,
 				AB7BE61429C7FEE300A787F4 /* AppDelegate.swift in Sources */,
 				AB9F9A8229E66D38003DE1DD /* CodableExtension.swift in Sources */,
 				ABDBF7D129DA70BB004C0DCC /* FormViewController.swift in Sources */,
@@ -201,6 +220,7 @@
 				AB7BE61629C7FEE300A787F4 /* SceneDelegate.swift in Sources */,
 				AB9F9A7E29E645F7003DE1DD /* FormResultViewController.swift in Sources */,
 				ABE2821129E542C6003E24E1 /* DataTableViewCell.swift in Sources */,
+				AB9471B729E8E02800175D12 /* AppGridViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
