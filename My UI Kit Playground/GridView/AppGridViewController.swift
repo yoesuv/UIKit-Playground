@@ -13,6 +13,7 @@ class AppGridViewController: UIViewController, UICollectionViewDelegate, UIColle
     
     let layout = UICollectionViewFlowLayout()
     let spacing: CGFloat = 5
+    let images = ["Sunset1", "Sunset2", "Sunset3", "Sunset4"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,7 +46,7 @@ class AppGridViewController: UIViewController, UICollectionViewDelegate, UIColle
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: GridCollectionViewCell.identifier, for: indexPath) as! GridCollectionViewCell
-        cell.configure(with: UIImage(named: "Sunset1")!)
+        cell.configure(with: UIImage(named: images.randomElement()!)!)
         return cell
     }
     
