@@ -38,5 +38,8 @@ class ViewController: UIViewController {
         self.performSegue(withIdentifier: "HomeToGrid", sender: self)
     }
     
+    @IBAction func onClickAlert(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "HomeToAlert", sender: self)
+    }
 }
 
