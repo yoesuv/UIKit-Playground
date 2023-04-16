@@ -21,6 +21,10 @@ class AlertViewController: UIViewController {
         self.navigationItem.title = "Alert Dialog"
     }
 
+    @IBAction func onClickDefault(_ sender: UIButton) {
+        
+    }
+    
     @IBAction func onClickLogour(_ sender: UIButton) {
         let logoutVC = DialogLogoutViewController.init(nibName: "DialogLogoutViewController", bundle: nil)
         logoutVC.modalPresentationStyle = .overCurrentContext
