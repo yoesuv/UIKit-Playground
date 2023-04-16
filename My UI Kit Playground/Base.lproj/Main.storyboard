@@ -519,6 +519,9 @@
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Logout"/>
+                                        <connections>
+                                            <action selector="onClickLogour:" destination="2dj-C5-Oho" eventType="touchUpInside" id="yzv-Qc-Kwe"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
