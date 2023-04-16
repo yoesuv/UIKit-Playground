@@ -508,8 +508,28 @@
                     <view key="view" contentMode="scaleToFill" id="s6u-wv-hvs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="M2Q-0Z-s0i">
+                                <rect key="frame" x="20" y="111" width="335" height="40"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Hn-Nc-Os8">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="hwQ-tV-Ofy"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Logout"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Yl2-7N-gJh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Yl2-7N-gJh" firstAttribute="trailing" secondItem="M2Q-0Z-s0i" secondAttribute="trailing" constant="20" id="Dfa-du-588"/>
+                            <constraint firstItem="M2Q-0Z-s0i" firstAttribute="top" secondItem="Yl2-7N-gJh" secondAttribute="top" constant="20" id="tgh-Bn-WHh"/>
+                            <constraint firstItem="M2Q-0Z-s0i" firstAttribute="leading" secondItem="Yl2-7N-gJh" secondAttribute="leading" constant="20" id="vEi-dB-Se6"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="42y-Xj-1vl"/>
                 </viewController>
