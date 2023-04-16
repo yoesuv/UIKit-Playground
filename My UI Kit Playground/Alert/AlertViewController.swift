@@ -7,6 +7,8 @@
 
 import UIKit
 
+typealias Action = (() -> Void)
+
 class AlertViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -23,6 +25,9 @@ class AlertViewController: UIViewController {
         let logoutVC = DialogLogoutViewController.init(nibName: "DialogLogoutViewController", bundle: nil)
         logoutVC.modalPresentationStyle = .overCurrentContext
         logoutVC.modalTransitionStyle = .crossDissolve
+        logoutVC.okeAction = {
+            self.navigationController?.popViewController(animated: true)
+        }
         self.present(logoutVC, animated: true)
     }
 }

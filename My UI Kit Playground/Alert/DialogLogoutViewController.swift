@@ -10,6 +10,7 @@ import UIKit
 class DialogLogoutViewController: UIViewController {
 
     @IBOutlet weak var contentView: UIView!
+    var okeAction: Action?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,5 +25,6 @@ class DialogLogoutViewController: UIViewController {
     
     @IBAction func onClickOke(_ sender: UIButton) {
         self.dismiss(animated: true)
+        self.okeAction?()
     }
 }
