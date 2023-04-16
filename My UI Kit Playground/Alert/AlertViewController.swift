@@ -22,7 +22,15 @@ class AlertViewController: UIViewController {
     }
 
     @IBAction func onClickDefault(_ sender: UIButton) {
-        
+        let alert = UIAlertController(title: "LOGOUT", message: "Keluar dari Aplikasi?", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "CANCEL", style: .default, handler: { _ in
+            self.dismiss(animated: true)
+        }))
+        alert.addAction(UIAlertAction(title: "OKE", style: .default, handler: { _ in
+            self.dismiss(animated: true)
+            self.navigationController?.popViewController(animated: true)
+        }))
+        self.present(alert, animated: true)
     }
     
     @IBAction func onClickLogour(_ sender: UIButton) {
