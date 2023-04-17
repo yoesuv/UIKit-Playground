@@ -100,6 +100,7 @@
 		AB7BE61229C7FEE300A787F4 /* My UI Kit Playground */ = {
 			isa = PBXGroup;
 			children = (
+				ABA8D78729ED4E720050FE43 /* TabBar */,
 				ABE9348929EB59E300C9A96E /* Alert */,
 				AB9471B529E8DFF200175D12 /* GridView */,
 				AB4E3B4C29E6E39500FAE56B /* Form */,
@@ -144,6 +145,13 @@
 				ABD2627329E7991800E21F0A /* AppDetailListViewController.swift */,
 			);
 			path = ListView;
+			sourceTree = "<group>";
+		};
+		ABA8D78729ED4E720050FE43 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 		ABE9348929EB59E300C9A96E /* Alert */ = {
