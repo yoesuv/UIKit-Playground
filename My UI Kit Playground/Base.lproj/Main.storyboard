@@ -531,7 +531,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Logout"/>
                                         <connections>
-                                            <action selector="onClickLogour:" destination="2dj-C5-Oho" eventType="touchUpInside" id="yzv-Qc-Kwe"/>
+                                            <action selector="onClickLogout:" destination="2dj-C5-Oho" eventType="touchUpInside" id="xnu-hq-KjS"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2x2-C5-x0X">

@@ -33,7 +33,7 @@ class AlertViewController: UIViewController {
         self.present(alert, animated: true)
     }
     
-    @IBAction func onClickLogour(_ sender: UIButton) {
+    @IBAction func onClickLogout(_ sender: UIButton) {
         let logoutVC = DialogLogoutViewController.init(nibName: "DialogLogoutViewController", bundle: nil)
         logoutVC.modalPresentationStyle = .overCurrentContext
         logoutVC.modalTransitionStyle = .crossDissolve
