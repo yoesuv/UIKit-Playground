@@ -44,6 +44,17 @@ class AlertViewController: UIViewController {
     }
     
     @IBAction func onClickBottomSheet(_ sender: UIButton) {
-        
+        let bottom = BottomLogoutViewController(nibName: "BottomLogoutViewController", bundle: nil)
+        let nav = UINavigationController(rootViewController: bottom)
+        nav.modalPresentationStyle = .pageSheet
+        if let sheet = nav.sheetPresentationController {
+            if #available(iOS 16.0, *) {
+                sheet.detents = [.custom { _ in return 200}, .medium()]
+            } else {
+                sheet.detents = [.medium()]
+            }
+            sheet.preferredCornerRadius = 20
+        }
+        self.present(nav, animated: true)
     }
 }

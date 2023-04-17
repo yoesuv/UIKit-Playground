@@ -6,7 +6,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -20,32 +19,66 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NnK-xm-vVM">
-                    <rect key="frame" x="76" y="362" width="240" height="128"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOGOUT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mpl-6t-pEZ">
+                    <rect key="frame" x="10" y="59" width="373" height="24"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Keluar dari Aplikasi?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0X-ze-8ee">
+                    <rect key="frame" x="20" y="93" width="353" height="24"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="DdW-lC-0OK">
+                    <rect key="frame" x="20" y="137" width="353" height="40"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LOGOUT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mpl-6t-pEZ">
-                            <rect key="frame" x="99" y="17" width="83" height="24"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                            <nil key="textColor"/>
-                            <nil key="highlightedColor"/>
-                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hch-gQ-tDE">
+                            <rect key="frame" x="0.0" y="0.0" width="171.66666666666666" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="J3C-8L-a3c"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="filled" title="CANCEL">
+                                <color key="baseBackgroundColor" name="Red500"/>
+                            </buttonConfiguration>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vnf-ga-HCf">
+                            <rect key="frame" x="181.66666666666663" y="0.0" width="171.33333333333337" height="40"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="filled" title="OKE">
+                                <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
+                            </buttonConfiguration>
+                        </button>
                     </subviews>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                </view>
+                </stackView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
-            <color key="backgroundColor" name="BackgroundDialog"/>
+            <color key="backgroundColor" name="Grey100"/>
+            <constraints>
+                <constraint firstItem="DdW-lC-0OK" firstAttribute="top" secondItem="A0X-ze-8ee" secondAttribute="bottom" constant="20" id="3CN-ab-Xyc"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="DdW-lC-0OK" secondAttribute="trailing" constant="20" id="BHb-6h-qMh"/>
+                <constraint firstItem="Mpl-6t-pEZ" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Dvw-hU-BNp"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="A0X-ze-8ee" secondAttribute="trailing" constant="20" id="FuU-4z-wRC"/>
+                <constraint firstItem="Mpl-6t-pEZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="MUb-u7-1B2"/>
+                <constraint firstItem="DdW-lC-0OK" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="OTh-KJ-ufy"/>
+                <constraint firstItem="A0X-ze-8ee" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="d6L-hD-Ubw"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Mpl-6t-pEZ" secondAttribute="trailing" constant="10" id="gRc-uv-yen"/>
+                <constraint firstItem="A0X-ze-8ee" firstAttribute="top" secondItem="Mpl-6t-pEZ" secondAttribute="bottom" constant="10" id="n6a-ew-cIh"/>
+            </constraints>
             <point key="canvasLocation" x="132" y="-11"/>
         </view>
     </objects>
     <resources>
-        <namedColor name="BackgroundDialog">
-            <color red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+        <namedColor name="Grey100">
+            <color red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <namedColor name="Red500">
+            <color red="0.9570000171661377" green="0.2630000114440918" blue="0.21199999749660492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
