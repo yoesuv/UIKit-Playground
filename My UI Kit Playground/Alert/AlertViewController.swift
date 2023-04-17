@@ -33,7 +33,7 @@ class AlertViewController: UIViewController {
         self.present(alert, animated: true)
     }
     
-    @IBAction func onClickLogour(_ sender: UIButton) {
+    @IBAction func onClickLogout(_ sender: UIButton) {
         let logoutVC = DialogLogoutViewController.init(nibName: "DialogLogoutViewController", bundle: nil)
         logoutVC.modalPresentationStyle = .overCurrentContext
         logoutVC.modalTransitionStyle = .crossDissolve
@@ -41,5 +41,23 @@ class AlertViewController: UIViewController {
             self.navigationController?.popViewController(animated: true)
         }
         self.present(logoutVC, animated: true)
+    }
+    
+    @IBAction func onClickBottomSheet(_ sender: UIButton) {
+        let bottom = BottomLogoutViewController(nibName: "BottomLogoutViewController", bundle: nil)
+        bottom.okeAction = {
+            self.navigationController?.popViewController(animated: true)
+        }
+        let nav = UINavigationController(rootViewController: bottom)
+        nav.modalPresentationStyle = .pageSheet
+        if let sheet = nav.sheetPresentationController {
+            if #available(iOS 16.0, *) {
+                sheet.detents = [.custom { _ in return 200}, .medium()]
+            } else {
+                sheet.detents = [.medium()]
+            }
+            sheet.preferredCornerRadius = 20
+        }
+        self.present(nav, animated: true)
     }
 }
