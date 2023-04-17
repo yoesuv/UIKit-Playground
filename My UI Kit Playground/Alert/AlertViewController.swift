@@ -42,4 +42,8 @@ class AlertViewController: UIViewController {
         }
         self.present(logoutVC, animated: true)
     }
+    
+    @IBAction func onClickBottomSheet(_ sender: UIButton) {
+        
+    }
 }

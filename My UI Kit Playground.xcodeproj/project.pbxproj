@@ -24,6 +24,8 @@
 		ABD2821029DCFE3C00AE8C61 /* AppListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD2820F29DCFE3C00AE8C61 /* AppListViewController.swift */; };
 		ABDBF7D129DA70BB004C0DCC /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDBF7D029DA70BB004C0DCC /* FormViewController.swift */; };
 		ABE2821129E542C6003E24E1 /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE2821029E542C6003E24E1 /* DataTableViewCell.swift */; };
+		ABE7905829ECFEF100D6E2D9 /* BottomLogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE7905629ECFEF100D6E2D9 /* BottomLogoutViewController.swift */; };
+		ABE7905929ECFEF100D6E2D9 /* BottomLogoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABE7905729ECFEF100D6E2D9 /* BottomLogoutViewController.xib */; };
 		ABE9348B29EB5A1800C9A96E /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE9348A29EB5A1800C9A96E /* AlertViewController.swift */; };
 		ABF5A04D29DC0D6200ECB84B /* UITextFieldSecureToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF5A04C29DC0D6200ECB84B /* UITextFieldSecureToggle.swift */; };
 		ABFE39FB29EB886300131B0D /* DialogLogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFE39F929EB886300131B0D /* DialogLogoutViewController.swift */; };
@@ -50,6 +52,8 @@
 		ABD2820F29DCFE3C00AE8C61 /* AppListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppListViewController.swift; sourceTree = "<group>"; };
 		ABDBF7D029DA70BB004C0DCC /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 		ABE2821029E542C6003E24E1 /* DataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		ABE7905629ECFEF100D6E2D9 /* BottomLogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomLogoutViewController.swift; sourceTree = "<group>"; };
+		ABE7905729ECFEF100D6E2D9 /* BottomLogoutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomLogoutViewController.xib; sourceTree = "<group>"; };
 		ABE9348A29EB5A1800C9A96E /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		ABF5A04C29DC0D6200ECB84B /* UITextFieldSecureToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldSecureToggle.swift; sourceTree = "<group>"; };
 		ABFE39F929EB886300131B0D /* DialogLogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogLogoutViewController.swift; sourceTree = "<group>"; };
@@ -148,6 +152,8 @@
 				ABE9348A29EB5A1800C9A96E /* AlertViewController.swift */,
 				ABFE39F929EB886300131B0D /* DialogLogoutViewController.swift */,
 				ABFE39FA29EB886300131B0D /* DialogLogoutViewController.xib */,
+				ABE7905629ECFEF100D6E2D9 /* BottomLogoutViewController.swift */,
+				ABE7905729ECFEF100D6E2D9 /* BottomLogoutViewController.xib */,
 			);
 			path = Alert;
 			sourceTree = "<group>";
@@ -213,6 +219,7 @@
 				AB0717CC29E93B8500F6D329 /* GridCollectionViewCell.xib in Resources */,
 				AB7BE62029C7FEE300A787F4 /* LaunchScreen.storyboard in Resources */,
 				AB7BE61D29C7FEE300A787F4 /* Assets.xcassets in Resources */,
+				ABE7905929ECFEF100D6E2D9 /* BottomLogoutViewController.xib in Resources */,
 				AB7BE61B29C7FEE300A787F4 /* Main.storyboard in Resources */,
 				ABFE39FC29EB886300131B0D /* DialogLogoutViewController.xib in Resources */,
 			);
@@ -234,6 +241,7 @@
 				AB9F9A8229E66D38003DE1DD /* CodableExtension.swift in Sources */,
 				ABDBF7D129DA70BB004C0DCC /* FormViewController.swift in Sources */,
 				ABFE39FB29EB886300131B0D /* DialogLogoutViewController.swift in Sources */,
+				ABE7905829ECFEF100D6E2D9 /* BottomLogoutViewController.swift in Sources */,
 				ABD2821029DCFE3C00AE8C61 /* AppListViewController.swift in Sources */,
 				AB9F9A8029E6530B003DE1DD /* RegisterModel.swift in Sources */,
 				AB7BE61629C7FEE300A787F4 /* SceneDelegate.swift in Sources */,
