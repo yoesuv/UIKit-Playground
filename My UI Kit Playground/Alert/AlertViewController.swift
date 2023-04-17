@@ -45,6 +45,9 @@ class AlertViewController: UIViewController {
     
     @IBAction func onClickBottomSheet(_ sender: UIButton) {
         let bottom = BottomLogoutViewController(nibName: "BottomLogoutViewController", bundle: nil)
+        bottom.okeAction = {
+            self.navigationController?.popViewController(animated: true)
+        }
         let nav = UINavigationController(rootViewController: bottom)
         nav.modalPresentationStyle = .pageSheet
         if let sheet = nav.sheetPresentationController {
