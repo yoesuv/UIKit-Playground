@@ -6,7 +6,6 @@ Personal UIKit iOS project.
 | ![](https://i.imgur.com/mJVctkz.png) | ![](https://i.imgur.com/5IZDBP0.png) | ![](https://i.imgur.com/ccx2iSI.png) | ![](https://i.imgur.com/6KbhQz6.png) |
 | :---: | :---: | :---: | :---: |
 | ![](https://i.imgur.com/01DXDkO.png) | ![](https://i.imgur.com/JZvUMC7.png) | ![](https://i.imgur.com/4v0kLYX.png) | ![](https://i.imgur.com/MHD5eWw.png) |
-| :---: | :---: | :---: | :---: |
 | ![](https://i.imgur.com/6njhtmM.png) | - | - | - |
 
 #### References ####
