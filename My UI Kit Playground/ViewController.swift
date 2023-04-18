@@ -46,5 +46,9 @@ class ViewController: UIViewController {
         self.performSegue(withIdentifier: "HomeToTabBar", sender: self)
     }
     
+    @IBAction func onClickViewPager(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "HomeToViewPager", sender: self)
+    }
+    
 }
 
