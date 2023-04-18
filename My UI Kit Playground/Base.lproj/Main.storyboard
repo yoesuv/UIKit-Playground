@@ -422,10 +422,10 @@
             </objects>
             <point key="canvasLocation" x="3708" y="287"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--My Tab Bar View Controller-->
         <scene sceneID="QxZ-aX-HBE">
             <objects>
-                <tabBarController id="bgK-4a-YxA" sceneMemberID="viewController">
+                <tabBarController id="bgK-4a-YxA" customClass="MyTabBarViewController" customModule="My_UI_Kit_Playground" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="VTk-Fg-eW1"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nLm-pZ-7Jh">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>

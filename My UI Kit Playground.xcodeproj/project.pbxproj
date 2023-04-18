@@ -10,6 +10,7 @@
 		AB0717CB29E93B8500F6D329 /* GridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0717C929E93B8500F6D329 /* GridCollectionViewCell.swift */; };
 		AB0717CC29E93B8500F6D329 /* GridCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB0717CA29E93B8500F6D329 /* GridCollectionViewCell.xib */; };
 		AB28FBC429C954E700119D4B /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB28FBC329C954E700119D4B /* CounterViewController.swift */; };
+		AB53CDDA29EE28C900170EFF /* MyTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB53CDD929EE28C900170EFF /* MyTabBarViewController.swift */; };
 		AB7BE61429C7FEE300A787F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7BE61329C7FEE300A787F4 /* AppDelegate.swift */; };
 		AB7BE61629C7FEE300A787F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7BE61529C7FEE300A787F4 /* SceneDelegate.swift */; };
 		AB7BE61829C7FEE300A787F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7BE61729C7FEE300A787F4 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 		AB0717C929E93B8500F6D329 /* GridCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCollectionViewCell.swift; sourceTree = "<group>"; };
 		AB0717CA29E93B8500F6D329 /* GridCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GridCollectionViewCell.xib; sourceTree = "<group>"; };
 		AB28FBC329C954E700119D4B /* CounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
+		AB53CDD929EE28C900170EFF /* MyTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarViewController.swift; sourceTree = "<group>"; };
 		AB7BE61029C7FEE300A787F4 /* My UI Kit Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My UI Kit Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB7BE61329C7FEE300A787F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB7BE61529C7FEE300A787F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 		ABA8D78729ED4E720050FE43 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				AB53CDD929EE28C900170EFF /* MyTabBarViewController.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB53CDDA29EE28C900170EFF /* MyTabBarViewController.swift in Sources */,
 				ABF5A04D29DC0D6200ECB84B /* UITextFieldSecureToggle.swift in Sources */,
 				ABD2627429E7991800E21F0A /* AppDetailListViewController.swift in Sources */,
 				AB7BE61829C7FEE300A787F4 /* ViewController.swift in Sources */,
