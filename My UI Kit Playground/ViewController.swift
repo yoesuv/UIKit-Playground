@@ -41,5 +41,10 @@ class ViewController: UIViewController {
     @IBAction func onClickAlert(_ sender: UIButton) {
         self.performSegue(withIdentifier: "HomeToAlert", sender: self)
     }
+    
+    @IBAction func onClickTabBar(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "HomeToTabBar", sender: self)
+    }
+    
 }
 
