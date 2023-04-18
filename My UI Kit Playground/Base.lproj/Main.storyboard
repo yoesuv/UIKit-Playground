@@ -445,14 +445,29 @@
         <!--Item-->
         <scene sceneID="yry-zE-JZ7">
             <objects>
-                <viewController id="aZe-Cb-VIy" sceneMemberID="viewController">
+                <viewController id="aZe-Cb-VIy" customClass="TabHomeViewController" customModule="My_UI_Kit_Playground" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JlO-QD-E7g">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label Home" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Dv-z9-oxX">
+                                <rect key="frame" x="131.66666666666666" y="394" width="111.66666666666666" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Rr1-ke-Uvy"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8Dv-z9-oxX" firstAttribute="centerY" secondItem="JlO-QD-E7g" secondAttribute="centerY" id="VLW-mn-MwF"/>
+                            <constraint firstItem="8Dv-z9-oxX" firstAttribute="centerX" secondItem="JlO-QD-E7g" secondAttribute="centerX" id="eKX-Fa-PiZ"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="dis-6Q-6gm"/>
+                    <connections>
+                        <outlet property="labelHome" destination="8Dv-z9-oxX" id="DWQ-mv-Xj1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H1Z-yb-m8f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -461,14 +476,29 @@
         <!--Item-->
         <scene sceneID="CyU-de-S8C">
             <objects>
-                <viewController id="Ng5-Bj-z3L" sceneMemberID="viewController">
+                <viewController id="Ng5-Bj-z3L" customClass="TabGalleryViewController" customModule="My_UI_Kit_Playground" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tFl-zu-obn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label Gallery" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="etg-vJ-JOn">
+                                <rect key="frame" x="126.33333333333331" y="394" width="122.66666666666669" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="9uQ-yd-xR1"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="etg-vJ-JOn" firstAttribute="centerX" secondItem="tFl-zu-obn" secondAttribute="centerX" id="XmD-7R-AVv"/>
+                            <constraint firstItem="etg-vJ-JOn" firstAttribute="centerY" secondItem="tFl-zu-obn" secondAttribute="centerY" id="tCP-za-j1O"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="nl7-92-rct"/>
+                    <connections>
+                        <outlet property="labelGallery" destination="etg-vJ-JOn" id="PHh-D2-Fh2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vmW-0h-eqW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -477,14 +507,29 @@
         <!--Item-->
         <scene sceneID="b52-gZ-eVB">
             <objects>
-                <viewController id="zlp-kQ-88f" sceneMemberID="viewController">
+                <viewController id="zlp-kQ-88f" customClass="TabSettingsViewController" customModule="My_UI_Kit_Playground" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RhN-PK-pRh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6hl-zu-0vT">
+                                <rect key="frame" x="120" y="394" width="135" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="OPx-fs-Q6u"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6hl-zu-0vT" firstAttribute="centerY" secondItem="RhN-PK-pRh" secondAttribute="centerY" id="m33-VG-fA4"/>
+                            <constraint firstItem="6hl-zu-0vT" firstAttribute="centerX" secondItem="RhN-PK-pRh" secondAttribute="centerX" id="wnz-AA-6Zq"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="MrM-El-GTP"/>
+                    <connections>
+                        <outlet property="labelSettings" destination="6hl-zu-0vT" id="K93-ng-Rij"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eCh-ka-SwX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

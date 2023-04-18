@@ -17,12 +17,19 @@ class MyTabBarViewController: UITabBarController {
         self.navigationController?.navigationBar.topItem?.backBarButtonItem = backButton
         
         self.navigationItem.title = "TabBar Navigation"
-        self.tabBar.items?[0].title = "Home"
-        self.tabBar.items?[0].image = UIImage(systemName: "house")
-        self.tabBar.items?[1].title = "Gallery"
-        self.tabBar.items?[1].image = UIImage(systemName: "photo.on.rectangle")
-        self.tabBar.items?[2].title = "Settings"
-        self.tabBar.items?[2].image = UIImage(systemName: "gear.circle")
+        
+        setupTabBar()
+    }
+    
+    private func setupTabBar() {
+        if let items = self.tabBar.items {
+            items[0].title = "Home"
+            items[0].image = UIImage(systemName: "house")
+            items[1].title = "Gallery"
+            items[1].image = UIImage(systemName: "photo.on.rectangle")
+            items[2].title = "Settings"
+            items[2].image = UIImage(systemName: "gear.circle")
+        }
     }
 
 }
