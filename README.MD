@@ -14,3 +14,4 @@ Personal UIKit iOS project.
 - [Password Toggle](https://levelup.gitconnected.com/beginner-ios-dev-embed-a-secure-text-entry-toggle-button-into-a-uitextfield-17bacfc87608)
 - [Table View](https://youtu.be/R2Ng8Vj2yhY)
 - [Bottom Sheet](https://sarunw.com/posts/bottom-sheet-in-ios-15-with-uisheetpresentationcontroller/)
+- [Tabs/View Pager](https://johncodeos.com/how-to-create-tabs-in-ios-using-swift/)
