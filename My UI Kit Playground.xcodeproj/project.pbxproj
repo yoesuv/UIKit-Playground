@@ -24,6 +24,8 @@
 		AB9F9A7E29E645F7003DE1DD /* FormResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9F9A7D29E645F7003DE1DD /* FormResultViewController.swift */; };
 		AB9F9A8029E6530B003DE1DD /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9F9A7F29E6530B003DE1DD /* RegisterModel.swift */; };
 		AB9F9A8229E66D38003DE1DD /* CodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9F9A8129E66D38003DE1DD /* CodableExtension.swift */; };
+		ABA5C2D129FF4F7200289623 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA5C2D029FF4F7200289623 /* TabView.swift */; };
+		ABA5C2D329FF506900289623 /* TabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA5C2D229FF506900289623 /* TabCell.swift */; };
 		ABD2627429E7991800E21F0A /* AppDetailListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD2627329E7991800E21F0A /* AppDetailListViewController.swift */; };
 		ABD2821029DCFE3C00AE8C61 /* AppListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD2820F29DCFE3C00AE8C61 /* AppListViewController.swift */; };
 		ABDBF7D129DA70BB004C0DCC /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDBF7D029DA70BB004C0DCC /* FormViewController.swift */; };
@@ -58,6 +60,8 @@
 		AB9F9A7D29E645F7003DE1DD /* FormResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormResultViewController.swift; sourceTree = "<group>"; };
 		AB9F9A7F29E6530B003DE1DD /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
 		AB9F9A8129E66D38003DE1DD /* CodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableExtension.swift; sourceTree = "<group>"; };
+		ABA5C2D029FF4F7200289623 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		ABA5C2D229FF506900289623 /* TabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCell.swift; sourceTree = "<group>"; };
 		ABD2627329E7991800E21F0A /* AppDetailListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailListViewController.swift; sourceTree = "<group>"; };
 		ABD2820F29DCFE3C00AE8C61 /* AppListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppListViewController.swift; sourceTree = "<group>"; };
 		ABDBF7D029DA70BB004C0DCC /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +133,8 @@
 				ABF5A04C29DC0D6200ECB84B /* UITextFieldSecureToggle.swift */,
 				AB9F9A8129E66D38003DE1DD /* CodableExtension.swift */,
 				ABE0339D29EE9A1C00B44694 /* UIImageExtension.swift */,
+				ABA5C2D029FF4F7200289623 /* TabView.swift */,
+				ABA5C2D229FF506900289623 /* TabCell.swift */,
 			);
 			path = "My UI Kit Playground";
 			sourceTree = "<group>";
@@ -276,6 +282,7 @@
 				AB53CDDC29EE3A5600170EFF /* TabHomeViewController.swift in Sources */,
 				AB53CDDE29EE3B7000170EFF /* TabGalleryViewController.swift in Sources */,
 				AB7BE61429C7FEE300A787F4 /* AppDelegate.swift in Sources */,
+				ABA5C2D129FF4F7200289623 /* TabView.swift in Sources */,
 				AB9F9A8229E66D38003DE1DD /* CodableExtension.swift in Sources */,
 				ABDBF7D129DA70BB004C0DCC /* FormViewController.swift in Sources */,
 				ABFE39FB29EB886300131B0D /* DialogLogoutViewController.swift in Sources */,
@@ -287,6 +294,7 @@
 				ABE2821129E542C6003E24E1 /* DataTableViewCell.swift in Sources */,
 				ABE9348B29EB5A1800C9A96E /* AlertViewController.swift in Sources */,
 				AB53CDE029EE41A700170EFF /* TabSettingsViewController.swift in Sources */,
+				ABA5C2D329FF506900289623 /* TabCell.swift in Sources */,
 				ABE0339C29EE714100B44694 /* PagerViewController.swift in Sources */,
 				AB9471B729E8E02800175D12 /* AppGridViewController.swift in Sources */,
 			);
