@@ -26,6 +26,7 @@
 		AB9F9A8229E66D38003DE1DD /* CodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9F9A8129E66D38003DE1DD /* CodableExtension.swift */; };
 		ABA5C2D129FF4F7200289623 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA5C2D029FF4F7200289623 /* TabView.swift */; };
 		ABA5C2D329FF506900289623 /* TabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA5C2D229FF506900289623 /* TabCell.swift */; };
+		ABA5C2D529FF664400289623 /* TabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA5C2D429FF664400289623 /* TabsViewController.swift */; };
 		ABD2627429E7991800E21F0A /* AppDetailListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD2627329E7991800E21F0A /* AppDetailListViewController.swift */; };
 		ABD2821029DCFE3C00AE8C61 /* AppListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD2820F29DCFE3C00AE8C61 /* AppListViewController.swift */; };
 		ABDBF7D129DA70BB004C0DCC /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDBF7D029DA70BB004C0DCC /* FormViewController.swift */; };
@@ -62,6 +63,7 @@
 		AB9F9A8129E66D38003DE1DD /* CodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableExtension.swift; sourceTree = "<group>"; };
 		ABA5C2D029FF4F7200289623 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 		ABA5C2D229FF506900289623 /* TabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCell.swift; sourceTree = "<group>"; };
+		ABA5C2D429FF664400289623 /* TabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsViewController.swift; sourceTree = "<group>"; };
 		ABD2627329E7991800E21F0A /* AppDetailListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailListViewController.swift; sourceTree = "<group>"; };
 		ABD2820F29DCFE3C00AE8C61 /* AppListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppListViewController.swift; sourceTree = "<group>"; };
 		ABDBF7D029DA70BB004C0DCC /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				ABE0339B29EE714100B44694 /* PagerViewController.swift */,
+				ABA5C2D429FF664400289623 /* TabsViewController.swift */,
 			);
 			path = ViewPager;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 			files = (
 				AB53CDDA29EE28C900170EFF /* MyTabBarViewController.swift in Sources */,
 				ABF5A04D29DC0D6200ECB84B /* UITextFieldSecureToggle.swift in Sources */,
+				ABA5C2D529FF664400289623 /* TabsViewController.swift in Sources */,
 				ABE0339E29EE9A1C00B44694 /* UIImageExtension.swift in Sources */,
 				ABD2627429E7991800E21F0A /* AppDetailListViewController.swift in Sources */,
 				AB7BE61829C7FEE300A787F4 /* ViewController.swift in Sources */,

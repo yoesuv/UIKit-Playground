@@ -459,10 +459,21 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="VI5-aw-Bpp"/>
+                    <connections>
+                        <outlet property="tabsView" destination="zBF-Cp-USm" id="lMj-Wx-Wan"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V3e-1y-7uV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3708" y="1090.6403940886701"/>
+        </scene>
+        <!--Tabs View Controller-->
+        <scene sceneID="e3C-v8-Upj">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="h7g-PJ-Yt2" customClass="TabsViewController" customModule="My_UI_Kit_Playground" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w7P-aW-53E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4582" y="1091"/>
         </scene>
         <!--My Tab Bar View Controller-->
         <scene sceneID="QxZ-aX-HBE">
