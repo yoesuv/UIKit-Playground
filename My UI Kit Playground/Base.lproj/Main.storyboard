@@ -441,14 +441,28 @@
                     <view key="view" contentMode="scaleToFill" id="1vL-ME-xFM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zBF-Cp-USm" customClass="TabsView" customModule="My_UI_Kit_Playground" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="91" width="375" height="55"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="SbJ-m5-68O"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="11w-9O-Zep"/>
                         <color key="backgroundColor" name="Grey100"/>
+                        <constraints>
+                            <constraint firstItem="11w-9O-Zep" firstAttribute="trailing" secondItem="zBF-Cp-USm" secondAttribute="trailing" id="GL3-0a-7st"/>
+                            <constraint firstItem="zBF-Cp-USm" firstAttribute="leading" secondItem="11w-9O-Zep" secondAttribute="leading" id="fny-IG-RlW"/>
+                            <constraint firstItem="zBF-Cp-USm" firstAttribute="top" secondItem="11w-9O-Zep" secondAttribute="top" id="mR5-lh-reB"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="VI5-aw-Bpp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V3e-1y-7uV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4582" y="287"/>
+            <point key="canvasLocation" x="3708" y="1090.6403940886701"/>
         </scene>
         <!--My Tab Bar View Controller-->
         <scene sceneID="QxZ-aX-HBE">
