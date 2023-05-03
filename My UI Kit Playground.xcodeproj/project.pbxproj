@@ -29,6 +29,9 @@
 		ABA5C2D529FF664400289623 /* TabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA5C2D429FF664400289623 /* TabsViewController.swift */; };
 		ABD2627429E7991800E21F0A /* AppDetailListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD2627329E7991800E21F0A /* AppDetailListViewController.swift */; };
 		ABD2821029DCFE3C00AE8C61 /* AppListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD2820F29DCFE3C00AE8C61 /* AppListViewController.swift */; };
+		ABD7A1332A024C4900A558CB /* TabOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD7A1322A024C4900A558CB /* TabOneViewController.swift */; };
+		ABD7A1352A024CAF00A558CB /* TabTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD7A1342A024CAF00A558CB /* TabTwoViewController.swift */; };
+		ABD7A1372A024CDA00A558CB /* TabThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD7A1362A024CDA00A558CB /* TabThreeViewController.swift */; };
 		ABDBF7D129DA70BB004C0DCC /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDBF7D029DA70BB004C0DCC /* FormViewController.swift */; };
 		ABE0339C29EE714100B44694 /* PagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE0339B29EE714100B44694 /* PagerViewController.swift */; };
 		ABE0339E29EE9A1C00B44694 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE0339D29EE9A1C00B44694 /* UIImageExtension.swift */; };
@@ -66,6 +69,9 @@
 		ABA5C2D429FF664400289623 /* TabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsViewController.swift; sourceTree = "<group>"; };
 		ABD2627329E7991800E21F0A /* AppDetailListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailListViewController.swift; sourceTree = "<group>"; };
 		ABD2820F29DCFE3C00AE8C61 /* AppListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppListViewController.swift; sourceTree = "<group>"; };
+		ABD7A1322A024C4900A558CB /* TabOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabOneViewController.swift; sourceTree = "<group>"; };
+		ABD7A1342A024CAF00A558CB /* TabTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTwoViewController.swift; sourceTree = "<group>"; };
+		ABD7A1362A024CDA00A558CB /* TabThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabThreeViewController.swift; sourceTree = "<group>"; };
 		ABDBF7D029DA70BB004C0DCC /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 		ABE0339B29EE714100B44694 /* PagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerViewController.swift; sourceTree = "<group>"; };
 		ABE0339D29EE9A1C00B44694 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
@@ -185,6 +191,9 @@
 			children = (
 				ABE0339B29EE714100B44694 /* PagerViewController.swift */,
 				ABA5C2D429FF664400289623 /* TabsViewController.swift */,
+				ABD7A1322A024C4900A558CB /* TabOneViewController.swift */,
+				ABD7A1342A024CAF00A558CB /* TabTwoViewController.swift */,
+				ABD7A1362A024CDA00A558CB /* TabThreeViewController.swift */,
 			);
 			path = ViewPager;
 			sourceTree = "<group>";
@@ -284,7 +293,10 @@
 				AB28FBC429C954E700119D4B /* CounterViewController.swift in Sources */,
 				AB0717CB29E93B8500F6D329 /* GridCollectionViewCell.swift in Sources */,
 				AB53CDDC29EE3A5600170EFF /* TabHomeViewController.swift in Sources */,
+				ABD7A1352A024CAF00A558CB /* TabTwoViewController.swift in Sources */,
 				AB53CDDE29EE3B7000170EFF /* TabGalleryViewController.swift in Sources */,
+				ABD7A1332A024C4900A558CB /* TabOneViewController.swift in Sources */,
+				ABD7A1372A024CDA00A558CB /* TabThreeViewController.swift in Sources */,
 				AB7BE61429C7FEE300A787F4 /* AppDelegate.swift in Sources */,
 				ABA5C2D129FF4F7200289623 /* TabView.swift in Sources */,
 				AB9F9A8229E66D38003DE1DD /* CodableExtension.swift in Sources */,
