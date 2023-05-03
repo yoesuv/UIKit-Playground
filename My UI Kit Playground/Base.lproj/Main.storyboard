@@ -470,7 +470,7 @@
         <!--Tabs View Controller-->
         <scene sceneID="e3C-v8-Upj">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="h7g-PJ-Yt2" customClass="TabsViewController" customModule="My_UI_Kit_Playground" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="TabsViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="h7g-PJ-Yt2" customClass="TabsViewController" customModule="My_UI_Kit_Playground" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w7P-aW-53E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4582" y="1091"/>
@@ -478,7 +478,7 @@
         <!--Tab One View Controller-->
         <scene sceneID="811-Hl-ooF">
             <objects>
-                <viewController id="XbF-i9-nZY" customClass="TabOneViewController" customModule="My_UI_Kit_Playground" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TabOneViewController" id="XbF-i9-nZY" customClass="TabOneViewController" customModule="My_UI_Kit_Playground" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="G9f-im-Jss">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -505,7 +505,7 @@
         <!--Tab Two View Controller-->
         <scene sceneID="Fxq-P0-QmS">
             <objects>
-                <viewController id="gUA-eo-1UN" customClass="TabTwoViewController" customModule="My_UI_Kit_Playground" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TabTwoViewController" id="gUA-eo-1UN" customClass="TabTwoViewController" customModule="My_UI_Kit_Playground" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LtA-EJ-IEk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -532,7 +532,7 @@
         <!--Tab Three View Controller-->
         <scene sceneID="zBf-bj-bPG">
             <objects>
-                <viewController id="NGy-Ac-qYa" customClass="TabThreeViewController" customModule="My_UI_Kit_Playground" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TabThreeViewController" id="NGy-Ac-qYa" customClass="TabThreeViewController" customModule="My_UI_Kit_Playground" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Juv-2P-vGi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
