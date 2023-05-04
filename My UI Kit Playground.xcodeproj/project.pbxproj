@@ -24,9 +24,17 @@
 		AB9F9A7E29E645F7003DE1DD /* FormResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9F9A7D29E645F7003DE1DD /* FormResultViewController.swift */; };
 		AB9F9A8029E6530B003DE1DD /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9F9A7F29E6530B003DE1DD /* RegisterModel.swift */; };
 		AB9F9A8229E66D38003DE1DD /* CodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9F9A8129E66D38003DE1DD /* CodableExtension.swift */; };
+		ABA5C2D129FF4F7200289623 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA5C2D029FF4F7200289623 /* TabView.swift */; };
+		ABA5C2D329FF506900289623 /* TabCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA5C2D229FF506900289623 /* TabCell.swift */; };
+		ABA5C2D529FF664400289623 /* TabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA5C2D429FF664400289623 /* TabsViewController.swift */; };
 		ABD2627429E7991800E21F0A /* AppDetailListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD2627329E7991800E21F0A /* AppDetailListViewController.swift */; };
 		ABD2821029DCFE3C00AE8C61 /* AppListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD2820F29DCFE3C00AE8C61 /* AppListViewController.swift */; };
+		ABD7A1332A024C4900A558CB /* TabOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD7A1322A024C4900A558CB /* TabOneViewController.swift */; };
+		ABD7A1352A024CAF00A558CB /* TabTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD7A1342A024CAF00A558CB /* TabTwoViewController.swift */; };
+		ABD7A1372A024CDA00A558CB /* TabThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD7A1362A024CDA00A558CB /* TabThreeViewController.swift */; };
 		ABDBF7D129DA70BB004C0DCC /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDBF7D029DA70BB004C0DCC /* FormViewController.swift */; };
+		ABE0339C29EE714100B44694 /* PagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE0339B29EE714100B44694 /* PagerViewController.swift */; };
+		ABE0339E29EE9A1C00B44694 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE0339D29EE9A1C00B44694 /* UIImageExtension.swift */; };
 		ABE2821129E542C6003E24E1 /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE2821029E542C6003E24E1 /* DataTableViewCell.swift */; };
 		ABE7905829ECFEF100D6E2D9 /* BottomLogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE7905629ECFEF100D6E2D9 /* BottomLogoutViewController.swift */; };
 		ABE7905929ECFEF100D6E2D9 /* BottomLogoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABE7905729ECFEF100D6E2D9 /* BottomLogoutViewController.xib */; };
@@ -56,9 +64,17 @@
 		AB9F9A7D29E645F7003DE1DD /* FormResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormResultViewController.swift; sourceTree = "<group>"; };
 		AB9F9A7F29E6530B003DE1DD /* RegisterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
 		AB9F9A8129E66D38003DE1DD /* CodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableExtension.swift; sourceTree = "<group>"; };
+		ABA5C2D029FF4F7200289623 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		ABA5C2D229FF506900289623 /* TabCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCell.swift; sourceTree = "<group>"; };
+		ABA5C2D429FF664400289623 /* TabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsViewController.swift; sourceTree = "<group>"; };
 		ABD2627329E7991800E21F0A /* AppDetailListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailListViewController.swift; sourceTree = "<group>"; };
 		ABD2820F29DCFE3C00AE8C61 /* AppListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppListViewController.swift; sourceTree = "<group>"; };
+		ABD7A1322A024C4900A558CB /* TabOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabOneViewController.swift; sourceTree = "<group>"; };
+		ABD7A1342A024CAF00A558CB /* TabTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTwoViewController.swift; sourceTree = "<group>"; };
+		ABD7A1362A024CDA00A558CB /* TabThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabThreeViewController.swift; sourceTree = "<group>"; };
 		ABDBF7D029DA70BB004C0DCC /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		ABE0339B29EE714100B44694 /* PagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerViewController.swift; sourceTree = "<group>"; };
+		ABE0339D29EE9A1C00B44694 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		ABE2821029E542C6003E24E1 /* DataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
 		ABE7905629ECFEF100D6E2D9 /* BottomLogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomLogoutViewController.swift; sourceTree = "<group>"; };
 		ABE7905729ECFEF100D6E2D9 /* BottomLogoutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomLogoutViewController.xib; sourceTree = "<group>"; };
@@ -108,6 +124,7 @@
 		AB7BE61229C7FEE300A787F4 /* My UI Kit Playground */ = {
 			isa = PBXGroup;
 			children = (
+				ABE0339A29EE711A00B44694 /* ViewPager */,
 				ABA8D78729ED4E720050FE43 /* TabBar */,
 				ABE9348929EB59E300C9A96E /* Alert */,
 				AB9471B529E8DFF200175D12 /* GridView */,
@@ -123,6 +140,9 @@
 				AB7BE62129C7FEE300A787F4 /* Info.plist */,
 				ABF5A04C29DC0D6200ECB84B /* UITextFieldSecureToggle.swift */,
 				AB9F9A8129E66D38003DE1DD /* CodableExtension.swift */,
+				ABE0339D29EE9A1C00B44694 /* UIImageExtension.swift */,
+				ABA5C2D029FF4F7200289623 /* TabView.swift */,
+				ABA5C2D229FF506900289623 /* TabCell.swift */,
 			);
 			path = "My UI Kit Playground";
 			sourceTree = "<group>";
@@ -164,6 +184,18 @@
 				AB53CDDF29EE41A700170EFF /* TabSettingsViewController.swift */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		ABE0339A29EE711A00B44694 /* ViewPager */ = {
+			isa = PBXGroup;
+			children = (
+				ABE0339B29EE714100B44694 /* PagerViewController.swift */,
+				ABA5C2D429FF664400289623 /* TabsViewController.swift */,
+				ABD7A1322A024C4900A558CB /* TabOneViewController.swift */,
+				ABD7A1342A024CAF00A558CB /* TabTwoViewController.swift */,
+				ABD7A1362A024CDA00A558CB /* TabThreeViewController.swift */,
+			);
+			path = ViewPager;
 			sourceTree = "<group>";
 		};
 		ABE9348929EB59E300C9A96E /* Alert */ = {
@@ -254,13 +286,19 @@
 			files = (
 				AB53CDDA29EE28C900170EFF /* MyTabBarViewController.swift in Sources */,
 				ABF5A04D29DC0D6200ECB84B /* UITextFieldSecureToggle.swift in Sources */,
+				ABA5C2D529FF664400289623 /* TabsViewController.swift in Sources */,
+				ABE0339E29EE9A1C00B44694 /* UIImageExtension.swift in Sources */,
 				ABD2627429E7991800E21F0A /* AppDetailListViewController.swift in Sources */,
 				AB7BE61829C7FEE300A787F4 /* ViewController.swift in Sources */,
 				AB28FBC429C954E700119D4B /* CounterViewController.swift in Sources */,
 				AB0717CB29E93B8500F6D329 /* GridCollectionViewCell.swift in Sources */,
 				AB53CDDC29EE3A5600170EFF /* TabHomeViewController.swift in Sources */,
+				ABD7A1352A024CAF00A558CB /* TabTwoViewController.swift in Sources */,
 				AB53CDDE29EE3B7000170EFF /* TabGalleryViewController.swift in Sources */,
+				ABD7A1332A024C4900A558CB /* TabOneViewController.swift in Sources */,
+				ABD7A1372A024CDA00A558CB /* TabThreeViewController.swift in Sources */,
 				AB7BE61429C7FEE300A787F4 /* AppDelegate.swift in Sources */,
+				ABA5C2D129FF4F7200289623 /* TabView.swift in Sources */,
 				AB9F9A8229E66D38003DE1DD /* CodableExtension.swift in Sources */,
 				ABDBF7D129DA70BB004C0DCC /* FormViewController.swift in Sources */,
 				ABFE39FB29EB886300131B0D /* DialogLogoutViewController.swift in Sources */,
@@ -272,6 +310,8 @@
 				ABE2821129E542C6003E24E1 /* DataTableViewCell.swift in Sources */,
 				ABE9348B29EB5A1800C9A96E /* AlertViewController.swift in Sources */,
 				AB53CDE029EE41A700170EFF /* TabSettingsViewController.swift in Sources */,
+				ABA5C2D329FF506900289623 /* TabCell.swift in Sources */,
+				ABE0339C29EE714100B44694 /* PagerViewController.swift in Sources */,
 				AB9471B729E8E02800175D12 /* AppGridViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
