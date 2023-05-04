@@ -20,11 +20,21 @@ class PagerViewController: UIViewController, TabsDelegate, UIPageViewControllerD
         let backButton = UIBarButtonItem()
         backButton.title = "Back"
         self.navigationController?.navigationBar.topItem?.backBarButtonItem = backButton
+        let appearance = UINavigationBarAppearance()
+        appearance.backgroundColor = UIColor(named: "Grey200")
+        appearance.shadowColor = UIColor(named: "Grey200")
+        self.navigationController?.navigationBar.scrollEdgeAppearance = appearance
         
         self.navigationItem.title = "View Pager"
         
         setupTabs()
         setupPageViewController()
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        let appearance = UINavigationBarAppearance()
+        appearance.backgroundColor = UIColor(named: "Grey200")
+        self.navigationController?.navigationBar.scrollEdgeAppearance = appearance
     }
     
     override func viewDidLayoutSubviews() {
