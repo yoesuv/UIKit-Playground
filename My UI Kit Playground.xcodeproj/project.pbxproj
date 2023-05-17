@@ -10,6 +10,7 @@
 		AB0717CB29E93B8500F6D329 /* GridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0717C929E93B8500F6D329 /* GridCollectionViewCell.swift */; };
 		AB0717CC29E93B8500F6D329 /* GridCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB0717CA29E93B8500F6D329 /* GridCollectionViewCell.xib */; };
 		AB28FBC429C954E700119D4B /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB28FBC329C954E700119D4B /* CounterViewController.swift */; };
+		AB3A46F12A14D2730051D5E3 /* CollapsingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3A46F02A14D2730051D5E3 /* CollapsingViewController.swift */; };
 		AB53CDDA29EE28C900170EFF /* MyTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB53CDD929EE28C900170EFF /* MyTabBarViewController.swift */; };
 		AB53CDDC29EE3A5600170EFF /* TabHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB53CDDB29EE3A5600170EFF /* TabHomeViewController.swift */; };
 		AB53CDDE29EE3B7000170EFF /* TabGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB53CDDD29EE3B7000170EFF /* TabGalleryViewController.swift */; };
@@ -48,6 +49,7 @@
 		AB0717C929E93B8500F6D329 /* GridCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCollectionViewCell.swift; sourceTree = "<group>"; };
 		AB0717CA29E93B8500F6D329 /* GridCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GridCollectionViewCell.xib; sourceTree = "<group>"; };
 		AB28FBC329C954E700119D4B /* CounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
+		AB3A46F02A14D2730051D5E3 /* CollapsingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsingViewController.swift; sourceTree = "<group>"; };
 		AB53CDD929EE28C900170EFF /* MyTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarViewController.swift; sourceTree = "<group>"; };
 		AB53CDDB29EE3A5600170EFF /* TabHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabHomeViewController.swift; sourceTree = "<group>"; };
 		AB53CDDD29EE3B7000170EFF /* TabGalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabGalleryViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +97,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB3A46EF2A14D1CD0051D5E3 /* Collapsing */ = {
+			isa = PBXGroup;
+			children = (
+				AB3A46F02A14D2730051D5E3 /* CollapsingViewController.swift */,
+			);
+			path = Collapsing;
+			sourceTree = "<group>";
+		};
 		AB4E3B4C29E6E39500FAE56B /* Form */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +134,7 @@
 		AB7BE61229C7FEE300A787F4 /* My UI Kit Playground */ = {
 			isa = PBXGroup;
 			children = (
+				AB3A46EF2A14D1CD0051D5E3 /* Collapsing */,
 				ABE0339A29EE711A00B44694 /* ViewPager */,
 				ABA8D78729ED4E720050FE43 /* TabBar */,
 				ABE9348929EB59E300C9A96E /* Alert */,
@@ -284,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB3A46F12A14D2730051D5E3 /* CollapsingViewController.swift in Sources */,
 				AB53CDDA29EE28C900170EFF /* MyTabBarViewController.swift in Sources */,
 				ABF5A04D29DC0D6200ECB84B /* UITextFieldSecureToggle.swift in Sources */,
 				ABA5C2D529FF664400289623 /* TabsViewController.swift in Sources */,

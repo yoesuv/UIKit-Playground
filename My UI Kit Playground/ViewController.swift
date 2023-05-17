@@ -50,5 +50,8 @@ class ViewController: UIViewController {
         self.performSegue(withIdentifier: "HomeToViewPager", sender: self)
     }
     
+    @IBAction func onClickCollapsing(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "HomeToCollapsing", sender: self)
+    }
 }
 
