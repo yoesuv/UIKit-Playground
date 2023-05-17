@@ -15,3 +15,4 @@ Personal UIKit iOS project.
 - [Table View](https://youtu.be/R2Ng8Vj2yhY)
 - [Bottom Sheet](https://sarunw.com/posts/bottom-sheet-in-ios-15-with-uisheetpresentationcontroller/)
 - [Tabs/View Pager](https://johncodeos.com/how-to-create-tabs-in-ios-using-swift/)
+- [Collapsing App Bar](https://www.willowtreeapps.com/craft/how-to-create-a-simple-collapsing-header-with-uiscrollview)
