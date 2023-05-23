@@ -494,8 +494,22 @@
                     <view key="view" contentMode="scaleToFill" id="K0e-vc-x8I">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zHN-uv-t4V" userLabel="HeaderView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="500"/>
+                                <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="500" id="5IQ-2Y-Heh"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="BSR-VD-t8N"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zHN-uv-t4V" firstAttribute="leading" secondItem="BSR-VD-t8N" secondAttribute="leading" id="Fgj-6e-EHx"/>
+                            <constraint firstItem="BSR-VD-t8N" firstAttribute="trailing" secondItem="zHN-uv-t4V" secondAttribute="trailing" id="kZR-Lr-4CF"/>
+                            <constraint firstItem="zHN-uv-t4V" firstAttribute="top" secondItem="K0e-vc-x8I" secondAttribute="top" id="y1W-6y-THh"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Xrj-fm-sPK"/>
                 </viewController>
@@ -539,7 +553,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tab 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KrY-Nz-omd">
-                                <rect key="frame" x="157.66666666666666" y="392.33333333333331" width="59.666666666666657" height="27.666666666666686"/>
+                                <rect key="frame" x="158.33333333333334" y="392.33333333333331" width="58.666666666666657" height="27.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -877,6 +891,9 @@
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
