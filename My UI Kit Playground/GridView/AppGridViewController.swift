@@ -18,7 +18,7 @@ class AppGridViewController: UIViewController, UICollectionViewDelegate, UIColle
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        setBackButtonTitle()
+        setBackButtonNoGlass()
         
         self.navigationItem.title = "Grid View"
         

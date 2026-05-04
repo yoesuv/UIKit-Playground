@@ -14,7 +14,7 @@ class AlertViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        setBackButtonTitle()
+        setBackButtonNoGlass()
         
         self.navigationItem.title = "Alert Dialog"
     }

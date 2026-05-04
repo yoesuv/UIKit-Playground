@@ -15,7 +15,7 @@ class CounterViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        setBackButtonTitle()
+        setBackButtonNoGlass()
         
         self.navigationItem.title = "Counter"
         labelCounter.text = String(value)

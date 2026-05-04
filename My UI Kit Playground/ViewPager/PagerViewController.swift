@@ -17,7 +17,7 @@ class PagerViewController: UIViewController, TabsDelegate, UIPageViewControllerD
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        setBackButtonTitle()
+        setBackButtonNoGlass()
         let appearance = UINavigationBarAppearance()
         appearance.backgroundColor = UIColor(named: "Grey200")
         appearance.shadowColor = UIColor(named: "Grey200")

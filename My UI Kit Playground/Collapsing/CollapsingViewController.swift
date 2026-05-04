@@ -50,7 +50,7 @@ class CollapsingViewController: UIViewController, UITableViewDataSource, UITable
     
     private func setupNavigationBar() {
         // Back button
-        setBackButtonTitle()
+        setBackButtonNoGlass()
         
         // Title
         navigationItem.title = "Expanded List"

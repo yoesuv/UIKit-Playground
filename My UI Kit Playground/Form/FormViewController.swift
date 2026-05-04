@@ -17,7 +17,7 @@ class FormViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        setBackButtonTitle()
+        setBackButtonNoGlass()
         
         fullName.delegate = self
         email.delegate = self

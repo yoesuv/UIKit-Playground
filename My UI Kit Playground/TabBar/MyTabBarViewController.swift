@@ -12,7 +12,7 @@ class MyTabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        setBackButtonTitle()
+        setBackButtonNoGlass()
         
         self.navigationItem.title = "TabBar Navigation"
         

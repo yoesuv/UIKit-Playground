@@ -20,7 +20,7 @@ class AppListViewController: UIViewController, UITableViewDataSource, UITableVie
             listData.append("Data ke \(number)")
         }
         
-        setBackButtonTitle()
+        setBackButtonNoGlass()
         
         self.navigationItem.title = "List View"
         
