@@ -496,29 +496,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zHN-uv-t4V" userLabel="HeaderView">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="500"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="500" id="5IQ-2Y-Heh"/>
+                                    <constraint firstAttribute="height" constant="200" id="5IQ-2Y-Heh"/>
                                 </constraints>
-                            </view>
-                            <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0b3-4q-aD5" userLabel="ContainerView">
-                                <rect key="frame" x="0.0" y="194" width="375" height="584"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BSR-VD-t8N"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="BSR-VD-t8N" firstAttribute="trailing" secondItem="0b3-4q-aD5" secondAttribute="trailing" id="2Ow-JN-zCH"/>
-                            <constraint firstItem="BSR-VD-t8N" firstAttribute="bottom" secondItem="0b3-4q-aD5" secondAttribute="bottom" id="79V-Dv-ldb"/>
                             <constraint firstItem="zHN-uv-t4V" firstAttribute="leading" secondItem="BSR-VD-t8N" secondAttribute="leading" id="Fgj-6e-EHx"/>
-                            <constraint firstItem="0b3-4q-aD5" firstAttribute="top" secondItem="K0e-vc-x8I" secondAttribute="topMargin" constant="100" id="MMS-o1-pN0"/>
-                            <constraint firstItem="0b3-4q-aD5" firstAttribute="leading" secondItem="BSR-VD-t8N" secondAttribute="leading" id="blh-OU-8I2"/>
                             <constraint firstItem="BSR-VD-t8N" firstAttribute="trailing" secondItem="zHN-uv-t4V" secondAttribute="trailing" id="kZR-Lr-4CF"/>
                             <constraint firstItem="zHN-uv-t4V" firstAttribute="top" secondItem="K0e-vc-x8I" secondAttribute="top" id="y1W-6y-THh"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="headerView" destination="zHN-uv-t4V" id="headerView-outlet"/>
+                        <outlet property="headerHeightConstraint" destination="5IQ-2Y-Heh" id="headerConstraint-outlet"/>
+                    </connections>
                     <navigationItem key="navigationItem" id="Xrj-fm-sPK"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FBH-W1-H31" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
