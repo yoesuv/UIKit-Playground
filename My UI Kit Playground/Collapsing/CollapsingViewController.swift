@@ -167,8 +167,9 @@ class CollapsingViewController: UIViewController, UITableViewDataSource, UITable
         // Calculate offset from top
         let offsetY = scrollView.contentOffset.y + expandedHeight
         
-        // Calculate new header height
-        let newHeight = expandedHeight - offsetY
+        // Calculate new header height (0.25x speed for smoother collapse)
+        let collapseSpeed: CGFloat = 0.25
+        let newHeight = expandedHeight - (offsetY * collapseSpeed)
         
         // Clamp between 0 and expandedHeight
         let clampedHeight = max(0, min(expandedHeight, newHeight))
@@ -176,13 +177,13 @@ class CollapsingViewController: UIViewController, UITableViewDataSource, UITable
         // Update header height constraint
         headerHeightConstraint.constant = clampedHeight
         
-        // Calculate collapse progress (0 = expanded, 1 = collapsed)
-        let progress = min(1, max(0, offsetY / expandedHeight))
+        // Calculate collapse progress (0 = expanded, 1 = collapsed) - based on header height
+        let progress = min(1, max(0, (expandedHeight - clampedHeight) / expandedHeight))
         
         // Update navigation bar appearance
         updateNavigationBarAppearance(progress: progress)
         
-        // Parallax effect on header background
+        // Parallax effect on header background (0.3x speed)
         if offsetY > 0 {
             headerView.transform = CGAffineTransform(translationX: 0, y: -offsetY * 0.3)
         } else {
