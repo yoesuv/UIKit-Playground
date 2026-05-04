@@ -20,9 +20,7 @@ class AppListViewController: UIViewController, UITableViewDataSource, UITableVie
             listData.append("Data ke \(number)")
         }
         
-        let backButton = UIBarButtonItem()
-        backButton.title = "Back"
-        self.navigationController?.navigationBar.topItem?.backBarButtonItem = backButton
+        setBackButtonNoGlass()
         
         self.navigationItem.title = "List View"
         
