@@ -49,10 +49,8 @@ class CollapsingViewController: UIViewController, UITableViewDataSource, UITable
     // MARK: - Setup
     
     private func setupNavigationBar() {
-        // Back button (like ListView)
-        let backButton = UIBarButtonItem()
-        backButton.title = "Back"
-        navigationController?.navigationBar.topItem?.backBarButtonItem = backButton
+        // Back button
+        setBackButtonTitle()
         
         // Title
         navigationItem.title = "Expanded List"

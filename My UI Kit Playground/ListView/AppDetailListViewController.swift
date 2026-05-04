@@ -16,9 +16,7 @@ class AppDetailListViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let backButton = UIBarButtonItem()
-        backButton.title = "Back"
-        self.navigationController?.navigationBar.topItem?.backBarButtonItem = backButton
+        setBackButtonTitle()
         
         self.navigationItem.title = "Detail List View"
         labelData.text = data ?? ""

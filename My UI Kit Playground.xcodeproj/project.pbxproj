@@ -43,9 +43,11 @@
 		ABF5A04D29DC0D6200ECB84B /* UITextFieldSecureToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF5A04C29DC0D6200ECB84B /* UITextFieldSecureToggle.swift */; };
 		ABFE39FB29EB886300131B0D /* DialogLogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFE39F929EB886300131B0D /* DialogLogoutViewController.swift */; };
 		ABFE39FC29EB886300131B0D /* DialogLogoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABFE39FA29EB886300131B0D /* DialogLogoutViewController.xib */; };
+		ED5A6BC2B49FA55ED23F7C5F /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861F4AEBF13230A89F2ABE1F /* UIViewControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		861F4AEBF13230A89F2ABE1F /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		AB0717C929E93B8500F6D329 /* GridCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCollectionViewCell.swift; sourceTree = "<group>"; };
 		AB0717CA29E93B8500F6D329 /* GridCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GridCollectionViewCell.xib; sourceTree = "<group>"; };
 		AB28FBC329C954E700119D4B /* CounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				ABE0339D29EE9A1C00B44694 /* UIImageExtension.swift */,
 				ABA5C2D029FF4F7200289623 /* TabView.swift */,
 				ABA5C2D229FF506900289623 /* TabCell.swift */,
+				861F4AEBF13230A89F2ABE1F /* UIViewControllerExtension.swift */,
 			);
 			path = "My UI Kit Playground";
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				ABA5C2D329FF506900289623 /* TabCell.swift in Sources */,
 				ABE0339C29EE714100B44694 /* PagerViewController.swift in Sources */,
 				AB9471B729E8E02800175D12 /* AppGridViewController.swift in Sources */,
+				ED5A6BC2B49FA55ED23F7C5F /* UIViewControllerExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
