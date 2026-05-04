@@ -8,10 +8,10 @@
 import Foundation
 import UIKit
 
-let button = UIButton(type: .custom)
-let button2 = UIButton(type: .custom)
-let imgEye = UIImage(systemName: "eye.fill")
-let imgEyeSlash = UIImage(systemName: "eye.slash.fill")
+@MainActor private let button = UIButton(type: .custom)
+@MainActor private let button2 = UIButton(type: .custom)
+@MainActor private let imgEye = UIImage(systemName: "eye.fill")
+@MainActor private let imgEyeSlash = UIImage(systemName: "eye.slash.fill")
 
 extension UITextField {
     

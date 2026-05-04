@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol TabsDelegate {
+@MainActor protocol TabsDelegate {
     func tabsViewDidSelectItemAt(position: Int)
 }
 
@@ -60,7 +60,7 @@ class TabsView: UIView {
     
     var collectionView: UICollectionView!
     
-    var delegate: TabsDelegate?
+    @MainActor var delegate: TabsDelegate?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
