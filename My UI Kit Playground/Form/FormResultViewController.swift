@@ -16,6 +16,7 @@ class FormResultViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setBackButtonNoGlass()
         do {
             let data = try model?.encodeToString()
             if let out = data {
